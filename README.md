@@ -13,7 +13,7 @@
 ### 1. Base
 
 ```bash
-$ npm install eslint-config-prev --save-dev
+$ npm install --save-dev eslint-config-prev
 ```
 
 ### 2. Dependencies
@@ -21,7 +21,7 @@ $ npm install eslint-config-prev --save-dev
 To use the `base` config, you have to install ESLint dependencies:
 
 ```bash
-$ npm install babel-eslint eslint-plugin-babel eslint-plugin-import --save-dev
+$ npm install --save-dev babel-eslint eslint-plugin-babel eslint-plugin-import
 ```
 
 ## Usage
