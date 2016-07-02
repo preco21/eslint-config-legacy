@@ -29,14 +29,14 @@
   "devDependencies": {
     "ava": "^0.15.2",
     "babel-eslint": "^6.1.0",
-    "eslint": "^2.13.1",
+    "eslint": "^3.0.0",
     "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-import": "^1.9.2",
+    "eslint-plugin-import": "^1.10.0",
     "is-plain-obj": "^1.1.0"
   },
   "peerDependencies": {
     "babel-eslint": "^6.1.0",
-    "eslint": "^2.13.1",
-    "eslint-plugin-import": "^1.9.2"
+    "eslint": "^3.0.0",
+    "eslint-plugin-import": "^1.10.0"
   }
 }
