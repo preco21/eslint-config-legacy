@@ -32,7 +32,7 @@ module.exports = {
     // issue: https://github.com/benmosher/eslint-plugin-import/issues/242
     // 'import/no-duplicates': 1,
     'import/no-namespace': 0,
-    'import/extensions': 2,
+    'import/extensions': [2, {js: 'never', jsx: 'never'}],
     'import/order': [2, {'newlines-between': 'never'}],
     'import/newline-after-import': 0,
     'import/prefer-default-export': 0,
