@@ -8,6 +8,9 @@
     "test": "npm run lint && ava",
     "lint": "eslint ."
   },
+  "engines": {
+    "node": ">= 4.0"
+  },
   "license": "MIT",
   "homepage": "https://github.com/preco21/eslint-config-prev#readme",
   "repository": "preco21/eslint-config-prev",
