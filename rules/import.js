@@ -19,6 +19,7 @@ module.exports = {
     'import/named': 2,
     'import/default': 2,
     'import/namespace': 2,
+    'import/no-restricted-paths': 0,
     'import/export': 2,
     'import/no-named-as-default': 0,
     'import/no-named-as-default-member': 0,
