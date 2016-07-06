@@ -15,20 +15,27 @@ module.exports = {
     },
   },
   rules: {
+    // static analysis
     'import/no-unresolved': [2, {commonjs: true}],
     'import/named': 2,
     'import/default': 2,
     'import/namespace': 2,
     'import/no-restricted-paths': 0,
+
+    // helpful warnings
     'import/export': 2,
     'import/no-named-as-default': 0,
     'import/no-named-as-default-member': 0,
     'import/no-deprecated': 0,
     'import/no-extraneous-dependencies': 2,
     'import/no-mutable-exports': 2,
+
+    // module systems
     'import/no-commonjs': 0,
     'import/no-amd': 2,
     'import/no-nodejs-modules': 0,
+
+    // style guide
     'import/imports-first': 2,
     // issue: https://github.com/benmosher/eslint-plugin-import/issues/242
     // 'import/no-duplicates': 1,
