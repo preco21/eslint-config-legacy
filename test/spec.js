@@ -27,7 +27,7 @@ test('import rule is valid config', (t) => {
   t.true(isPlainObj(config.rules));
 });
 
-test('index root config is valid config', (t) => {
+test('primary index config is valid config', (t) => {
   const config = require('../index');
 
   t.true(isPlainObj(config));
