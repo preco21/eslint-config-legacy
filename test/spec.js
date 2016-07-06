@@ -28,7 +28,7 @@ test('import rule is valid config', (t) => {
 });
 
 test('primary index config is valid config', (t) => {
-  const config = require('../index');
+  const config = require('../');
 
   t.true(isPlainObj(config));
   t.true(Array.isArray(config.extends));
