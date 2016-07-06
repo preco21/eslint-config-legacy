@@ -13,6 +13,7 @@ module.exports = {
         extensions: ['.js', '.jsx', '.json'],
       },
     },
+    'import/extensions': ['.js', '.jsx'],
   },
   rules: {
     // static analysis
