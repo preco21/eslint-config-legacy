@@ -35,7 +35,7 @@ module.exports = {
     'import/no-namespace': 0,
     'import/extensions': [2, {js: 'never', jsx: 'never'}],
     'import/order': [2, {'newlines-between': 'never'}],
-    'import/newline-after-import': 0,
+    'import/newline-after-import': 2,
     'import/prefer-default-export': 0,
   },
 };
