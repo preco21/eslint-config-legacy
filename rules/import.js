@@ -2,7 +2,7 @@
 
 module.exports = {
   plugins: [
-    'import', // jsx도 resolver 없이 작동하는지 확인
+    'import',
   ],
   parserOptions: {
     sourceType: 'module',
