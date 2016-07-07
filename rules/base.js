@@ -46,7 +46,7 @@ module.exports = {
     // best practices
     'accessor-pairs': 2,
     'array-callback-return': 2,
-    'block-scoped-var': 2, // backward compatibility
+    'block-scoped-var': 2, // rely on `no-var` rule
     'complexity': [1, 11],
     'consistent-return': 2,
     'curly': 2,
@@ -54,7 +54,7 @@ module.exports = {
     'dot-location': [2, 'property'],
     'dot-notation': 2,
     'eqeqeq': 2,
-    'guard-for-in': 2, // backward compatibility
+    'guard-for-in': 2, // rely on `no-restricted-syntax` rule
     'no-alert': 1,
     'no-caller': 2,
     'no-case-declarations': 2,
@@ -62,7 +62,7 @@ module.exports = {
     'no-else-return': 2,
     'no-empty-function': 2,
     'no-empty-pattern': 2,
-    'no-eq-null': 2, // backward compatibility
+    'no-eq-null': 2, // rely on `eqeqeq` rule
     'no-eval': 2,
     'no-extend-native': 2,
     'no-extra-bind': 2,
@@ -105,7 +105,7 @@ module.exports = {
     'no-warning-comments': 1,
     'no-with': 2,
     'radix': [2, 'as-needed'],
-    'vars-on-top': 2, // backward compatibility
+    'vars-on-top': 2, // rely on `one-var` rule
     'wrap-iife': [2, 'inside'],
     'yoda': 2,
 
@@ -130,7 +130,7 @@ module.exports = {
     'callback-return': 0,
     'global-require': 0,
     'handle-callback-err': 2, // backward compatibility
-    'no-mixed-requires': 2, // backward compatibility
+    'no-mixed-requires': 2, // rely on `one-var` rule
     'no-new-require': 2, // backward compatibility
     'no-path-concat': 2,
     'no-process-env': 0,
@@ -202,7 +202,7 @@ module.exports = {
     'object-curly-spacing': 2,
     'object-property-newline': [2, {allowMultiplePropertiesPerLine: true}],
     'one-var': [2, 'never'],
-    'one-var-declaration-per-line': 2, // backward compatibility
+    'one-var-declaration-per-line': 2, // rely on `one-var` rule
     'operator-assignment': [2, 'always'],
     'operator-linebreak': 2,
     'padded-blocks': [2, 'never'],
