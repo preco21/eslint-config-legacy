@@ -24,6 +24,8 @@ test('import rule is valid config', (t) => {
 
   t.true(isPlainObj(config));
   t.deepEqual(config.plugins, ['import']);
+  t.true(isPlainObj(config.parserOptions));
+  t.true(isPlainObj(config.settings));
   t.true(isPlainObj(config.rules));
 });
 
