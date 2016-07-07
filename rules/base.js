@@ -168,10 +168,8 @@ module.exports = {
     'max-statements-per-line': 1,
     'new-cap': 2,
     'new-parens': 2,
-    // TODO: ENABLE ?
-    'newline-after-var': 0,
-    // TODO: ENABLE ?
-    'newline-before-return': 0,
+    'newline-after-var': 2,
+    'newline-before-return': 2,
     'newline-per-chained-call': 2,
     'no-array-constructor': 2,
     'no-bitwise': 0,
