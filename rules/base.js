@@ -70,7 +70,7 @@ module.exports = {
     'no-fallthrough': 2,
     'no-floating-decimal': 2,
     'no-implicit-coercion': [2, {boolean: false}],
-    'no-implicit-globals': 2, // backward compatibility
+    'no-implicit-globals': 2,
     'no-implied-eval': 2,
     'no-invalid-this': 2,
     'no-iterator': 2,
@@ -129,9 +129,9 @@ module.exports = {
     // node.js and commonjs
     'callback-return': 0,
     'global-require': 0,
-    'handle-callback-err': 2, // backward compatibility
+    'handle-callback-err': 2,
     'no-mixed-requires': 2, // rely on `one-var` rule
-    'no-new-require': 2, // backward compatibility
+    'no-new-require': 2,
     'no-path-concat': 2,
     'no-process-env': 0,
     'no-process-exit': 0,
