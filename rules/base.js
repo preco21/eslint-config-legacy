@@ -72,7 +72,8 @@ module.exports = {
     'no-implicit-coercion': [2, {boolean: false}],
     'no-implicit-globals': 2,
     'no-implied-eval': 2,
-    'no-invalid-this': 2,
+    // issue: https://github.com/babel/eslint-plugin-babel/issues/12
+    // 'no-invalid-this': 2,
     'no-iterator': 2,
     'no-labels': 2,
     'no-lone-blocks': 2,
