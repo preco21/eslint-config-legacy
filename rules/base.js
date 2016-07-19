@@ -11,7 +11,6 @@ module.exports = {
   },
   rules: {
     // possible errors
-    'comma-dangle': [2, 'always-multiline'],
     'no-cond-assign': [2, 'always'],
     'no-console': 1,
     'no-constant-condition': 2,
@@ -144,6 +143,7 @@ module.exports = {
     'block-spacing': 2,
     'brace-style': [2, '1tbs', {allowSingleLine: true}],
     'camelcase': [2, {properties: 'never'}],
+    'comma-dangle': [2, 'always-multiline'],
     'comma-spacing': 2,
     'comma-style': [2, 'last'],
     'computed-property-spacing': 2,
@@ -211,7 +211,6 @@ module.exports = {
     'require-jsdoc': 0,
     'semi': 2,
     'semi-spacing': 2,
-    'sort-imports': 0,
     'sort-vars': 0,
     'space-before-blocks': 2,
     'space-before-function-paren': [2, {anonymous: 'always', named: 'never'}],
@@ -249,6 +248,7 @@ module.exports = {
     'prefer-template': 2,
     'require-yield': 2,
     'rest-spread-spacing': 2,
+    'sort-imports': 0,
     'template-curly-spacing': 2,
     'yield-star-spacing': 2,
   },
