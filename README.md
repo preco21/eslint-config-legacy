@@ -3,8 +3,7 @@
 [![Code Style Prev](https://img.shields.io/badge/code%20style-prev-32c8fc.svg?style=flat-square)](https://github.com/preco21/eslint-config-prev)
 [![NPM Version](https://img.shields.io/npm/v/eslint-config-prev.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-prev)
 [![Build Status](https://img.shields.io/travis/preco21/eslint-config-prev/master.svg?style=flat-square)](https://travis-ci.org/preco21/eslint-config-prev)
-[![Development Dependency Status](https://img.shields.io/david/dev/preco21/eslint-config-prev.svg?style=flat-square)](https://david-dm.org/preco21/eslint-config-prev#info=devDependencies)
-[![Peer Dependency Status](https://img.shields.io/david/peer/preco21/eslint-config-prev.svg?style=flat-square)](https://david-dm.org/preco21/eslint-config-prev#info=peerDependencies)
+[![Dependency Status](https://dependencyci.com/github/preco21/eslint-config-prev/badge?style=flat-square)](https://dependencyci.com/github/preco21/eslint-config-prev)
 
 > ESLint sharable config for the best feeling
 
