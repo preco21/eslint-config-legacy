@@ -194,7 +194,7 @@ module.exports = {
     'no-tabs': 2,
     'no-ternary': 0,
     'no-trailing-spaces': [2, {skipBlankLines: true}],
-    'no-underscore-dangle': [2, {allowAfterThis: true}],
+    'no-underscore-dangle': [2, {allowAfterThis: true, allowAfterSuper: true}],
     'no-unneeded-ternary': [2, {defaultAssignment: false}],
     'no-whitespace-before-property': 2,
     // TODO: ENABLE ?
