@@ -218,7 +218,7 @@ module.exports = {
     'space-in-parens': 2,
     'space-infix-ops': 2,
     'space-unary-ops': 2,
-    'spaced-comment': 2,
+    'spaced-comment': [2, 'always', {block: {balanced: true}}],
     'unicode-bom': 2,
     'wrap-regex': 0,
 
