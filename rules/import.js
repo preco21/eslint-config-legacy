@@ -38,7 +38,7 @@ module.exports = {
 
     // style guide
     'import/imports-first': 2,
-    'import/no-duplicates': 0, // it's fine because `no-duplicate-imports` and `import/extensions` are enabled
+    'import/no-duplicates': 2,
     'import/no-namespace': 0,
     'import/extensions': [2, {js: 'never', jsx: 'never'}],
     'import/order': [2, {'newlines-between': 'never'}],
