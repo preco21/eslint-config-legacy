@@ -14,13 +14,15 @@ module.exports = {
     'object-shorthand': 0,
     'arrow-parens': 0,
 
-    // babel rules
+    // enhanced eslint rules
     'babel/generator-star-spacing': 2,
     'babel/new-cap': 2,
     'babel/array-bracket-spacing': 2,
     'babel/object-curly-spacing': 2,
     'babel/object-shorthand': 2,
     'babel/arrow-parens': 2,
+
+    // babel rules
     'babel/no-await-in-loop': 2,
     'babel/flow-object-type': 0,
     'babel/func-params-comma-dangle': [2, 'always-multiline'],
