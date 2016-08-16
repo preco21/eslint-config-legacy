@@ -34,6 +34,7 @@ module.exports = {
     'no-prototype-builtins': 2,
     'no-regex-spaces': 2,
     'no-sparse-arrays': 2,
+    'no-template-curly-in-string': 2,
     'no-unexpected-multiline': 2,
     'no-unreachable': 2,
     'no-unsafe-finally': 2,
