@@ -92,7 +92,7 @@ module.exports = {
     'no-redeclare': 2,
     'no-return-assign': [2, 'always'],
     'no-script-url': 0,
-    'no-self-assign': 2,
+    'no-self-assign': [2, {props: true}],
     'no-self-compare': 2,
     'no-sequences': 2,
     'no-throw-literal': 2,
