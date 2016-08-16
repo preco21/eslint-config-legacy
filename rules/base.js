@@ -163,7 +163,7 @@ module.exports = {
     'lines-around-comment': 0,
     'max-depth': 1,
     'max-len': 0,
-    'max-lines': 1,
+    'max-lines': 0,
     'max-nested-callbacks': [1, 4],
     'max-params': [1, 5],
     'max-statements': 0,
