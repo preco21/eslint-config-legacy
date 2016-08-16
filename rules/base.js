@@ -212,6 +212,7 @@ module.exports = {
     'require-jsdoc': 0,
     'semi': 2,
     'semi-spacing': 2,
+    'sort-keys': 0,
     'sort-vars': 0,
     'space-before-blocks': 2,
     'space-before-function-paren': [2, {anonymous: 'always', named: 'never'}],
