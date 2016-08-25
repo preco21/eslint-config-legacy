@@ -73,7 +73,7 @@ module.exports = {
     'no-implicit-coercion': [2, {boolean: false}],
     'no-implicit-globals': 2,
     'no-implied-eval': 2,
-    // FIXME
+    // TODO: Enable when issue has been fixed.
     // issue: https://github.com/babel/eslint-plugin-babel/issues/12
     // 'no-invalid-this': 2,
     'no-iterator': 2,
@@ -199,7 +199,7 @@ module.exports = {
     'no-underscore-dangle': [2, {allowAfterThis: true, allowAfterSuper: true}],
     'no-unneeded-ternary': [2, {defaultAssignment: false}],
     'no-whitespace-before-property': 2,
-    // TODO: ENABLE ?
+    // TODO: Enable when issue has been fixed.
     // issue: https://github.com/eslint/eslint/issues/6488
     // 'object-curly-newline': [2, {multiline: true, minProperties: 4}],
     'object-curly-spacing': 2,
