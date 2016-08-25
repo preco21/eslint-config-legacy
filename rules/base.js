@@ -192,7 +192,7 @@ module.exports = {
     'no-plusplus': 0,
     // use for-of with Object.keys() instead of for-in
     // https://hacks.mozilla.org/2015/04/es6-in-depth-iterators-and-the-for-of-loop/
-    'no-restricted-syntax': [2, 'WithStatement', 'ForInStatement'],
+    'no-restricted-syntax': [2, 'ForInStatement', 'LabeledStatement', 'WithStatement'],
     'no-tabs': 2,
     'no-ternary': 0,
     'no-trailing-spaces': [2, {skipBlankLines: true}],
