@@ -17,32 +17,32 @@ module.exports = {
   },
   rules: {
     // static analysis
-    'import/no-unresolved': [2, {commonjs: true}],
-    'import/named': 2,
-    'import/default': 2,
-    'import/namespace': 2,
-    'import/no-restricted-paths': 0,
+    'import/no-unresolved': ['error', {commonjs: true}],
+    'import/named': 'error',
+    'import/default': 'error',
+    'import/namespace': 'error',
+    'import/no-restricted-paths': 'off',
 
     // helpful warnings
-    'import/export': 2,
-    'import/no-named-as-default': 0,
-    'import/no-named-as-default-member': 0,
-    'import/no-deprecated': 0,
-    'import/no-extraneous-dependencies': 2,
-    'import/no-mutable-exports': 2,
+    'import/export': 'error',
+    'import/no-named-as-default': 'off',
+    'import/no-named-as-default-member': 'off',
+    'import/no-deprecated': 'off',
+    'import/no-extraneous-dependencies': 'error',
+    'import/no-mutable-exports': 'error',
 
     // module systems
-    'import/no-commonjs': 0,
-    'import/no-amd': 2,
-    'import/no-nodejs-modules': 0,
+    'import/no-commonjs': 'off',
+    'import/no-amd': 'error',
+    'import/no-nodejs-modules': 'off',
 
     // style guide
-    'import/imports-first': 2,
-    'import/no-duplicates': 2,
-    'import/no-namespace': 0,
-    'import/extensions': [2, {js: 'never', jsx: 'never'}],
-    'import/order': [2, {'newlines-between': 'never'}],
-    'import/newline-after-import': 2,
-    'import/prefer-default-export': 0,
+    'import/imports-first': 'error',
+    'import/no-duplicates': 'error',
+    'import/no-namespace': 'off',
+    'import/extensions': ['error', {js: 'never', jsx: 'never'}],
+    'import/order': ['error', {'newlines-between': 'never'}],
+    'import/newline-after-import': 'error',
+    'import/prefer-default-export': 'off',
   },
 };
