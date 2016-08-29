@@ -41,7 +41,7 @@ module.exports = {
     'no-unsafe-negation': 'error',
     'use-isnan': 'error',
     'valid-jsdoc': 'off',
-    'valid-typeof': 'error',
+    'valid-typeof': ['error', {requireStringLiterals: true}],
 
     // best practices
     'accessor-pairs': 'error',
