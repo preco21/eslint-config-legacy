@@ -254,6 +254,7 @@ module.exports = {
     'require-yield': 'error',
     'rest-spread-spacing': 'error',
     'sort-imports': 'off',
+    'symbol-description': 'off',
     'template-curly-spacing': 'error',
     'yield-star-spacing': 'error',
   },
