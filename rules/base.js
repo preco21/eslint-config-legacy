@@ -47,6 +47,7 @@ module.exports = {
     'accessor-pairs': 'error',
     'array-callback-return': 'error',
     'block-scoped-var': 'error', // rely on `no-var` rule
+    'class-methods-use-this': 'off',
     'complexity': ['warn', 11],
     'consistent-return': 'error',
     'curly': 'error',
