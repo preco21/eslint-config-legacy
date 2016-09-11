@@ -139,6 +139,7 @@ module.exports = {
     'no-process-env': 'off',
     'no-process-exit': 'off',
     'no-restricted-modules': 'off',
+    'no-restricted-properties': 'off',
     'no-sync': 'off',
 
     // stylistic issues
@@ -161,9 +162,11 @@ module.exports = {
     'indent': ['error', 2, {SwitchCase: 1}],
     'jsx-quotes': 'off',
     'key-spacing': 'error',
+    'line-comment-position': 'off',
     'keyword-spacing': 'error',
     'linebreak-style': 'error',
     'lines-around-comment': 'off',
+    'lines-around-directive': 'error',
     'max-depth': 'warn',
     'max-len': 'off',
     'max-lines': 'off',
@@ -247,6 +250,7 @@ module.exports = {
     'object-shorthand': 'error',
     'prefer-arrow-callback': 'error',
     'prefer-const': 'error',
+    'prefer-numeric-literals': 'error',
     'prefer-reflect': 'error',
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
