@@ -47,6 +47,9 @@ If you want to use `react` rules:
 extends: prev/react
 ```
 
+**Note:** If you are using `react-native`, you could use `prev/react-native`
+instead of `prev/react`.
+
 If you are on browser environment, you may need to add `env` field:
 
 ```yaml

@@ -45,6 +45,9 @@ extends: prev
 extends: prev/react
 ```
 
+**참고:** `react-native`를 사용한다면, `prev/react` 대신 `prev/react-native`를
+사용할 수 있습니다.
+
 브라우저 환경이라면, 빌트인 변수 지원을 위해 `env`를 사용할 수도 있습니다:
 
 ```yaml
