@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-prev",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESLint sharable config for the best feeling",
   "author": "Plusb Preco <plusb21@gmail.com>",
   "main": "index.js",
