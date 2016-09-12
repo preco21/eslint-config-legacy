@@ -26,7 +26,7 @@ $ npm install --save-dev babel-eslint eslint-plugin-babel eslint-plugin-import
 For the `react` config, you **also** have to install `react` ESLint plugin:
 
 ```bash
-$ npm install eslint-plugin-react --save-dev
+$ npm install --save-dev eslint-plugin-react
 ```
 
 ## Usage
