@@ -39,18 +39,27 @@ $ npm install --save-dev eslint-plugin-react
 extends: prev
 ```
 
-`react` 규칙을 사용하고 싶다면 다음과 같이 작성합니다:
+`react` 규칙을 사용하려면, 다음과 같이 작성합니다:
 
 ```yaml
 extends: prev/react
 ```
 
-브라우저 환경이라면, 빌트인 변수 지원을 위해 `env`를 사용할 수도 있습니다. 예를 들면:
+브라우저 환경이라면, 빌트인 변수 지원을 위해 `env`를 사용할 수도 있습니다:
 
 ```yaml
-extends: prev/react
+extends: prev
 env:
   browser: true
+```
+
+[Electron](electron.atom.io) 환경이라면, `core-modules` 설정에 `electron`을
+추가해야 합니다:
+
+```yaml
+extends: prev
+settings:
+  import/core-modules: electron
 ```
 
 ## 배지
