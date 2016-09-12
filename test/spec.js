@@ -29,8 +29,24 @@ test('import rule is valid config', (t) => {
   t.true(isPlainObj(config.rules));
 });
 
+test('react rule is valid config', (t) => {
+  const config = require('../rules/react');
+
+  t.true(isPlainObj(config));
+  t.deepEqual(config.plugins, ['react']);
+  t.true(isPlainObj(config.parserOptions));
+  t.true(isPlainObj(config.rules));
+});
+
 test('primary index config is valid config', (t) => {
   const config = require('../');
+
+  t.true(isPlainObj(config));
+  t.true(Array.isArray(config.extends));
+});
+
+test('primary react config is valid config', (t) => {
+  const config = require('../react');
 
   t.true(isPlainObj(config));
   t.true(Array.isArray(config.extends));

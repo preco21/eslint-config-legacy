@@ -23,6 +23,12 @@ To use the `base` config, you have to install ESLint dependencies:
 $ npm install --save-dev babel-eslint eslint-plugin-babel eslint-plugin-import
 ```
 
+For the `react` config, you **also** have to install `react` ESLint plugin:
+
+```bash
+$ npm install eslint-plugin-react --save-dev
+```
+
 ## Usage
 
 Add `extends` field to your ESLint config:
@@ -33,10 +39,16 @@ Add `extends` field to your ESLint config:
 extends: prev
 ```
 
+If you want `react` rules:
+
+```yaml
+extends: prev/react
+```
+
 If you are on browser environment, you may want to add `env` field. For example:
 
 ```yaml
-extends: prev
+extends: prev/react
 env:
   browser: true
 ```
