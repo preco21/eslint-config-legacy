@@ -5,35 +5,33 @@
 [![Build Status](https://img.shields.io/travis/preco21/eslint-config-prev/master.svg?style=flat-square)](https://travis-ci.org/preco21/eslint-config-prev)
 [![Dependency Status](https://dependencyci.com/github/preco21/eslint-config-prev/badge?style=flat-square)](https://dependencyci.com/github/preco21/eslint-config-prev)
 
-> ESLint sharable config for the best feeling
+> 기분 좋은 하루를 위한 ESLint 프리셋
 
-**Translations:** [Korean](./README-ko.md)
+## 설치하기
 
-## Installation
-
-### 1. Base
+### 1. 프리셋
 
 ```bash
 $ npm install --save-dev eslint-config-prev
 ```
 
-### 2. Dependencies
+### 2. 종속성
 
-To use the `base` config, you have to install ESLint dependencies:
+`base` 프리셋을 사용하려면, ESLint 종속성을 설치해야 합니다:
 
 ```bash
 $ npm install --save-dev babel-eslint eslint-plugin-babel eslint-plugin-import
 ```
 
-For the `react` config, you **also** have to install `react` ESLint plugin:
+`react` 프리셋을 사용하려면, `react` ESLint 플러그인도 **함께** 설치해야 합니다:
 
 ```bash
 $ npm install --save-dev eslint-plugin-react
 ```
 
-## Usage
+## 사용법
 
-Add `extends` field to your ESLint config:
+`extends` 필드를 ESLint 설정에 추가합니다. (파일이 없다면 파일을 생성합니다):
 
 `.eslintrc.yml`:
 
@@ -41,13 +39,13 @@ Add `extends` field to your ESLint config:
 extends: prev
 ```
 
-If you want `react` rules:
+`react` 규칙을 사용하고 싶다면 다음과 같이 작성합니다:
 
 ```yaml
 extends: prev/react
 ```
 
-If you are on browser environment, you may want to add `env` field. For example:
+브라우저 환경이라면, 빌트인 변수 지원을 위해 `env`를 사용할 수도 있습니다. 예를 들면:
 
 ```yaml
 extends: prev/react
@@ -55,7 +53,7 @@ env:
   browser: true
 ```
 
-## Badge
+## 배지
 
 > [![Code Style Prev](https://img.shields.io/badge/code%20style-prev-32c8fc.svg?style=flat-square)](https://github.com/preco21/eslint-config-prev)
 
@@ -63,6 +61,6 @@ env:
 [![Code Style Prev](https://img.shields.io/badge/code%20style-prev-32c8fc.svg?style=flat-square)](https://github.com/preco21/eslint-config-prev)
 ```
 
-## License
+## 라이센스
 
 [MIT](http://preco.mit-license.org/)
