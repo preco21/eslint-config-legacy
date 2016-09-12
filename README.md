@@ -41,18 +41,27 @@ Add `extends` field to your ESLint config:
 extends: prev
 ```
 
-If you want `react` rules:
+If you want to use `react` rules:
 
 ```yaml
 extends: prev/react
 ```
 
-If you are on browser environment, you may want to add `env` field. For example:
+If you are on browser environment, you may need to add `env` field:
 
 ```yaml
-extends: prev/react
+extends: prev
 env:
   browser: true
+```
+
+If you are on [Electron](electron.atom.io) environment, you may need to add
+`electron` to `core-modules`:
+
+```yaml
+extends: prev
+settings:
+  import/core-modules: electron
 ```
 
 ## Badge
