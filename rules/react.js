@@ -31,7 +31,7 @@ module.exports = {
     'react/no-set-state': 'off',
     'react/no-string-refs': 'error',
     'react/no-unknown-property': 'error',
-    'react/no-unused-prop-types': 'error',
+    'react/no-unused-prop-types': ['error', {skipShapeProps: true}],
     'react/prefer-es6-class': 'error',
     'react/prefer-stateless-function': 'error',
     'react/prop-types': 'error',
