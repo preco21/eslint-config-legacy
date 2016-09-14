@@ -26,7 +26,7 @@ module.exports = {
 
     // helpful warnings
     'import/export': 'error',
-    'import/no-named-as-default': 'off',
+    'import/no-named-as-default': 'error',
     'import/no-named-as-default-member': 'off',
     'import/no-deprecated': 'off',
     'import/no-extraneous-dependencies': 'error',
