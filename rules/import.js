@@ -22,7 +22,7 @@ module.exports = {
     'import/default': 'error',
     'import/namespace': 'error',
     'import/no-restricted-paths': 'off',
-    'no-absolute-path': 'error',
+    'import/no-absolute-path': 'error',
 
     // helpful warnings
     'import/export': 'error',
@@ -45,6 +45,6 @@ module.exports = {
     'import/order': ['error', {'newlines-between': 'never'}],
     'import/newline-after-import': 'error',
     'import/prefer-default-export': 'off',
-    'max-dependencies': 'off',
+    'import/max-dependencies': 'off',
   },
 };
