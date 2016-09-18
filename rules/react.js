@@ -50,7 +50,7 @@ module.exports = {
     'react/jsx-equals-spacing': 'error',
     'react/jsx-filename-extension': ['error', {extensions: ['.js', '.jsx']}],
     'react/jsx-first-prop-new-line': ['error', 'multiline'],
-    'react/jsx-handler-names': 'off', // use arrow function
+    'react/jsx-handler-names': 'error', // use arrow function
     'react/jsx-indent': ['error', 2],
     'react/jsx-indent-props': ['error', 2],
     'react/jsx-key': 'error',
