@@ -20,7 +20,8 @@
   "files": [
     "rules/",
     "index.js",
-    "react.js"
+    "react.js",
+    "react-native.js"
   ],
   "keywords": [
     "eslint",
