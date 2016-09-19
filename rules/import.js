@@ -26,7 +26,9 @@ module.exports = {
 
     // helpful warnings
     'import/export': 'error',
-    'import/no-named-as-default': 'error',
+    // TODO: Enable when issue has been fixed.
+    // issue: https://github.com/benmosher/eslint-plugin-import/issues/566
+    // 'import/no-named-as-default': 'error',
     'import/no-named-as-default-member': 'error',
     'import/no-deprecated': 'off',
     'import/no-extraneous-dependencies': 'error',
