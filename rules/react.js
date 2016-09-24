@@ -5,7 +5,8 @@ module.exports = {
     'react',
   ],
   parserOptions: {
-    ecmaVersion: 2016,
+    ecmaVersion: 2017,
+    sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },

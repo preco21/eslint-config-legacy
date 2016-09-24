@@ -5,6 +5,7 @@ module.exports = {
     'import',
   ],
   parserOptions: {
+    ecmaVersion: 2017,
     sourceType: 'module',
   },
   settings: {

@@ -5,6 +5,10 @@ module.exports = {
   plugins: [
     'babel',
   ],
+  parserOptions: {
+    ecmaVersion: 2017,
+    sourceType: 'module',
+  },
   rules: {
     // disable original eslint rules
     'generator-star-spacing': 'off',
