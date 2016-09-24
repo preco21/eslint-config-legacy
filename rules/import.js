@@ -24,6 +24,8 @@ module.exports = {
     'import/namespace': 'error',
     'import/no-restricted-paths': 'off',
     'import/no-absolute-path': 'error',
+    'import/no-dynamic-require': 'error',
+    'import/no-internal-modules': 'off',
 
     // helpful warnings
     'import/export': 'error',
