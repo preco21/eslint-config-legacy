@@ -139,7 +139,14 @@ module.exports = {
     'no-process-env': 'off',
     'no-process-exit': 'off',
     'no-restricted-modules': 'off',
-    'no-restricted-properties': 'off',
+    'no-restricted-properties': [
+      'error',
+      {
+        object: 'Object',
+        property: 'assign',
+        message: 'Use object spread operator `{...obj}` instead.',
+      },
+    ],
     'no-sync': 'off',
 
     // stylistic issues
