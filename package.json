@@ -9,7 +9,7 @@
     "lint": "eslint ."
   },
   "engines": {
-    "node": ">= 4.0"
+    "node": ">= 4"
   },
   "license": "MIT",
   "homepage": "https://github.com/preco21/eslint-config-prev#readme",
