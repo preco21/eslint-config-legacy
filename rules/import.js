@@ -26,6 +26,7 @@ module.exports = {
     'import/no-absolute-path': 'error',
     'import/no-dynamic-require': 'error',
     'import/no-internal-modules': 'off',
+    'import/no-webpack-loader-syntax': 'error',
 
     // helpful warnings
     'import/export': 'error',
