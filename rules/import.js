@@ -42,7 +42,7 @@ module.exports = {
     'import/no-nodejs-modules': 'off',
 
     // style guide
-    'import/imports-first': 'error',
+    'import/first': 'error',
     'import/no-duplicates': 'error',
     'import/no-namespace': 'off',
     'import/extensions': ['error', {js: 'never', jsx: 'never'}],
