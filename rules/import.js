@@ -32,6 +32,7 @@ module.exports = {
     'import/export': 'error',
     'import/no-named-as-default': 'error',
     'import/no-named-as-default-member': 'error',
+    // unstable rule: https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md
     'import/no-deprecated': 'off',
     'import/no-extraneous-dependencies': 'error',
     'import/no-mutable-exports': 'error',
