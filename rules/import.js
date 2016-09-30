@@ -15,6 +15,7 @@ module.exports = {
       },
     },
     'import/extensions': ['.js', '.jsx'],
+    'import/ignore': ['node_modules'],
   },
   rules: {
     // static analysis
