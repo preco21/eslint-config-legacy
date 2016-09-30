@@ -1,2 +1,4 @@
+parserOptions:
+  sourceType: script
 rules:
   quote-props: 0

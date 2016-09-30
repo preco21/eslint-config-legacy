@@ -37,6 +37,7 @@ module.exports = {
     'import/no-mutable-exports': 'error',
 
     // module systems
+    'import/unambiguous': 'error',
     'import/no-commonjs': 'off',
     'import/no-amd': 'error',
     'import/no-nodejs-modules': 'off',
