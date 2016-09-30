@@ -36,7 +36,7 @@
     "babel-eslint": "^7.0.0",
     "eslint": "^3.6.1",
     "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-import": "^2.0.0-beta.1",
+    "eslint-plugin-import": "^2.0.0",
     "eslint-plugin-react": "^6.3.0",
     "is-plain-obj": "^1.1.0"
   },
@@ -44,6 +44,6 @@
     "babel-eslint": "^7.0.0",
     "eslint": "^3.6.1",
     "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-import": "^2.0.0-beta.1"
+    "eslint-plugin-import": "^2.0.0"
   }
 }
