@@ -49,7 +49,7 @@ module.exports = {
     'import/extensions': ['error', {js: 'never', jsx: 'never'}],
     'import/order': ['error', {'newlines-between': 'never'}],
     'import/newline-after-import': 'error',
-    'import/prefer-default-export': 'off',
+    'import/prefer-default-export': 'error',
     'import/max-dependencies': 'off',
     'import/no-unassigned-import': 'off',
   },
