@@ -53,7 +53,7 @@ module.exports = {
     'react/jsx-equals-spacing': 'error',
     'react/jsx-filename-extension': ['error', {extensions: ['.js', '.jsx']}],
     'react/jsx-first-prop-new-line': ['error', 'multiline'],
-    'react/jsx-handler-names': 'error', // use arrow function
+    'react/jsx-handler-names': 'error',
     // TODO: Enable when issue has been fixed.
     // issue: https://github.com/yannickcr/eslint-plugin-react/issues/540
     // 'react/jsx-indent': ['error', 2],
