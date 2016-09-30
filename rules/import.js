@@ -51,5 +51,6 @@ module.exports = {
     'import/newline-after-import': 'error',
     'import/prefer-default-export': 'off',
     'import/max-dependencies': 'off',
+    'import/no-unassigned-import': 'off',
   },
 };
