@@ -113,7 +113,7 @@ module.exports = {
     'yoda': 'error',
 
     // strict mode
-    'strict': 'off',
+    'strict': 'error',
 
     // variables
     'init-declarations': 'error',
