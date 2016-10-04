@@ -65,6 +65,9 @@ settings:
   import/core-modules: electron
 ```
 
+ESLint 설정에 대한 자세한 사항은 [여기](http://eslint.org/docs/user-guide/configuring)에서
+확인할 수 있습니다.
+
 ## 배지
 
 > [![Code Style Prev](https://img.shields.io/badge/code%20style-prev-32c8fc.svg?style=flat-square)](https://github.com/preco21/eslint-config-prev)
