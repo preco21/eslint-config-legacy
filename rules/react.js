@@ -54,9 +54,7 @@ module.exports = {
     'react/jsx-filename-extension': ['error', {extensions: ['.js', '.jsx']}],
     'react/jsx-first-prop-new-line': ['error', 'multiline'],
     'react/jsx-handler-names': 'error',
-    // TODO: Enable when issue has been fixed.
-    // issue: https://github.com/yannickcr/eslint-plugin-react/issues/540
-    // 'react/jsx-indent': ['error', 2],
+    'react/jsx-indent': ['error', 2],
     'react/jsx-indent-props': ['error', 2],
     'react/jsx-key': 'error',
     'react/jsx-max-props-per-line': ['error', {maximum: 2}],
