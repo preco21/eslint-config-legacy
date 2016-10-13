@@ -9,7 +9,7 @@
 
 **Translations:** [Korean](./README-ko.md)
 
-## Installation
+## Install
 
 ### 1. Base
 
