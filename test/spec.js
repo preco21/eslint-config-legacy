@@ -15,8 +15,7 @@ test('`rules/esnext.js` is valid config', (t) => {
 
   t.true(isPlainObj(config));
   t.is(config.parser, 'babel-eslint');
-  t.deepEqual(config.plugins, ['babel']);
-  t.true(isPlainObj(config.rules));
+  t.true(isPlainObj(config.parserOptions));
 });
 
 test('`rules/import.js` is valid config', (t) => {
