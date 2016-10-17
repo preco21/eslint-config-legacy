@@ -109,7 +109,7 @@ module.exports = {
     'no-with': 'error',
     'radix': ['error', 'as-needed'],
     'vars-on-top': 'error', // rely on `one-var` rule
-    'wrap-iife': ['error', 'inside'],
+    'wrap-iife': ['error', 'inside', {functionPrototypeMethods: true}],
     'yoda': 'error',
 
     // strict mode
@@ -154,7 +154,16 @@ module.exports = {
     'block-spacing': 'error',
     'brace-style': ['error', '1tbs', {allowSingleLine: true}],
     'camelcase': ['error', {properties: 'never'}],
-    'comma-dangle': ['error', 'always-multiline'],
+    'comma-dangle': [
+      'error',
+      {
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'always-multiline',
+      },
+    ],
     'comma-spacing': 'error',
     'comma-style': ['error', 'last'],
     'computed-property-spacing': 'error',
@@ -229,7 +238,7 @@ module.exports = {
     'sort-keys': 'off',
     'sort-vars': 'off',
     'space-before-blocks': 'error',
-    'space-before-function-paren': ['error', {anonymous: 'always', named: 'never'}],
+    'space-before-function-paren': ['error', {anonymous: 'always', named: 'never', asyncArrow: 'always'}],
     'space-in-parens': 'error',
     'space-infix-ops': 'error',
     'space-unary-ops': 'error',
