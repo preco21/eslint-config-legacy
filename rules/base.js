@@ -8,6 +8,9 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'module',
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true,
+    },
   },
   rules: {
     // possible errors
@@ -74,7 +77,6 @@ module.exports = {
     'no-implicit-coercion': ['error', {boolean: false}],
     'no-implicit-globals': 'error',
     'no-implied-eval': 'error',
-    // TODO: Enable when issue has been fixed.
     // issue: https://github.com/babel/eslint-plugin-babel/issues/12
     // 'no-invalid-this': 'error',
     'no-iterator': 'error',

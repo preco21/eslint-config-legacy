@@ -5,7 +5,7 @@
 [![Build Status](https://img.shields.io/travis/preco21/eslint-config-prev/master.svg?style=flat-square)](https://travis-ci.org/preco21/eslint-config-prev)
 [![Dependency Status](https://dependencyci.com/github/preco21/eslint-config-prev/badge?style=flat-square)](https://dependencyci.com/github/preco21/eslint-config-prev)
 
-> 기분 좋은 하루를 위한 ESLint 프리셋
+> ES2015+ 를 주력으로 사용하기 위한 ESLint 프리셋
 
 ## 설치하기
 
@@ -17,10 +17,10 @@ $ npm install --save-dev eslint-config-prev
 
 ### 2. 종속성
 
-`base` 프리셋을 사용하려면, ESLint 종속성을 설치해야 합니다:
+`base` 프리셋을 사용하려면, 다음의 ESLint 플러그인 의존성을 설치해야 합니다:
 
 ```bash
-$ npm install --save-dev babel-eslint eslint-plugin-babel eslint-plugin-import
+$ npm install --save-dev babel-eslint eslint-plugin-import
 ```
 
 `react` 프리셋을 사용하려면, `react` ESLint 플러그인도 **함께** 설치해야 합니다:
@@ -45,8 +45,7 @@ extends: prev
 extends: prev/react
 ```
 
-**참고:** `react-native`를 사용한다면, `prev/react` 대신 `prev/react-native`를
-사용할 수 있습니다.
+**참고:** `react-native`를 사용한다면, `prev/react` 대신 `prev/react-native`를 사용할 수 있습니다.
 
 브라우저 환경이라면, 빌트인 변수 지원을 위해 `env`를 사용할 수도 있습니다:
 
@@ -56,8 +55,7 @@ env:
   browser: true
 ```
 
-[Electron](electron.atom.io) 환경이라면, `core-modules` 설정에 `electron`을
-추가해야 합니다:
+[Electron](electron.atom.io) 환경이라면, `core-modules` 설정에 `electron`을 추가해야 합니다:
 
 ```yaml
 extends: prev
@@ -65,8 +63,7 @@ settings:
   import/core-modules: electron
 ```
 
-ESLint 설정에 대한 자세한 사항은 [여기](http://eslint.org/docs/user-guide/configuring)에서
-확인할 수 있습니다.
+ESLint 설정에 대한 자세한 사항은 [여기](http://eslint.org/docs/user-guide/configuring)에서 확인할 수 있습니다.
 
 ## 배지
 

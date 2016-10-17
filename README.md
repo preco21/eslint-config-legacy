@@ -5,7 +5,7 @@
 [![Build Status](https://img.shields.io/travis/preco21/eslint-config-prev/master.svg?style=flat-square)](https://travis-ci.org/preco21/eslint-config-prev)
 [![Dependency Status](https://dependencyci.com/github/preco21/eslint-config-prev/badge?style=flat-square)](https://dependencyci.com/github/preco21/eslint-config-prev)
 
-> ESLint sharable config for the best feeling
+> ESLint sharable config that focused to use of ES2015+
 
 **Translations:** [Korean](./README-ko.md)
 
@@ -22,7 +22,7 @@ $ npm install --save-dev eslint-config-prev
 To use the `base` config, you need to install ESLint dependencies:
 
 ```bash
-$ npm install --save-dev babel-eslint eslint-plugin-babel eslint-plugin-import
+$ npm install --save-dev babel-eslint eslint-plugin-import
 ```
 
 For the `react` config, you **also** need to install `react` ESLint plugin:
@@ -47,8 +47,7 @@ If you want to use `react` rules:
 extends: prev/react
 ```
 
-**Note:** If you are using `react-native`, you could use `prev/react-native`
-instead of `prev/react`.
+**Note:** If you are using `react-native`, you could use `prev/react-native` instead of `prev/react`.
 
 If you are on browser environment, you may need to add `env` field:
 
@@ -58,8 +57,7 @@ env:
   browser: true
 ```
 
-If you are on [Electron](electron.atom.io) environment, you may need to add
-`electron` to `core-modules`:
+If you are on [Electron](electron.atom.io) environment, you may need to add `electron` to `core-modules`:
 
 ```yaml
 extends: prev
