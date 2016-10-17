@@ -161,6 +161,7 @@ module.exports = {
     'consistent-this': 'off',
     'eol-last': 'error',
     'func-call-spacing': 'error',
+    'func-name-matching': 'error',
     'func-names': ['error', 'never'],
     'func-style': ['error', 'declaration', {allowArrowFunctions: true}],
     'id-blacklist': 'off',
