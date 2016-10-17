@@ -257,7 +257,7 @@ module.exports = {
     'no-var': 'error',
     'object-shorthand': 'error',
     'prefer-arrow-callback': 'error',
-    'prefer-const': 'error',
+    'prefer-const': ['error', {destructuring: 'all'}],
     'prefer-numeric-literals': 'error',
     'prefer-reflect': 'error',
     'prefer-rest-params': 'error',
