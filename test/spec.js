@@ -38,7 +38,7 @@ test('`rules/react.js` is valid config', (t) => {
 });
 
 test('`index.js` is valid config', (t) => {
-  const config = require('../');
+  const config = require('..');
 
   t.true(isPlainObj(config));
   t.true(Array.isArray(config.extends));
