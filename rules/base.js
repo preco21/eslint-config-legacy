@@ -225,9 +225,9 @@ module.exports = {
     'no-mixed-spaces-and-tabs': 'error',
     'no-multiple-empty-lines': ['error', {max: 1, maxBOF: 0}],
     'no-negated-condition': 'error',
-    // IMO, there is no better alternatives
+    // Use separated function with if-guards
     // http://stackoverflow.com/questions/32289340/alternative-to-nested-ternary-operator-in-js
-    'no-nested-ternary': 'off',
+    'no-nested-ternary': 'error',
     'no-new-object': 'error',
     'no-plusplus': 'off',
     // use for-of with Object.keys() instead of for-in
