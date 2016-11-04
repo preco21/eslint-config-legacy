@@ -287,7 +287,6 @@ module.exports = {
     'prefer-arrow-callback': 'error',
     'prefer-const': ['error', {destructuring: 'all'}],
     'prefer-numeric-literals': 'error',
-    'prefer-reflect': 'error',
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',
