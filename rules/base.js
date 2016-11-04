@@ -225,7 +225,7 @@ module.exports = {
     'no-mixed-spaces-and-tabs': 'error',
     'no-multiple-empty-lines': ['error', {max: 1, maxBOF: 0}],
     'no-negated-condition': 'error',
-    // Use separated function with if-guards
+    // Use separated function or switch-case
     // http://stackoverflow.com/questions/32289340/alternative-to-nested-ternary-operator-in-js
     'no-nested-ternary': 'error',
     'no-new-object': 'error',
