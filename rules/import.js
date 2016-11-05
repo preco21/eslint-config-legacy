@@ -22,7 +22,7 @@ module.exports = {
     'import/no-unresolved': ['error', {commonjs: true}],
     'import/named': 'error',
     'import/default': 'error',
-    'import/namespace': 'error',
+    'import/namespace': ['error', {allowComputed: true}],
     'import/no-restricted-paths': 'off',
     'import/no-absolute-path': 'error',
     'import/no-dynamic-require': 'error',
