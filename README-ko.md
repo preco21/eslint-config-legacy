@@ -9,18 +9,8 @@
 
 ## 설치하기
 
-### 1. 프리셋
-
 ```bash
-$ npm install --save-dev eslint-config-prev
-```
-
-### 2. 종속성
-
-`base` 프리셋을 사용하려면, 다음의 ESLint 플러그인 의존성을 설치해야 합니다:
-
-```bash
-$ npm install --save-dev babel-eslint eslint-plugin-import
+$ npm install --save-dev eslint-config-prev babel-eslint eslint-plugin-import
 ```
 
 `react` 프리셋을 사용하려면, `react` ESLint 플러그인도 **함께** 설치해야 합니다:

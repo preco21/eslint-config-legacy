@@ -11,18 +11,8 @@
 
 ## Install
 
-### 1. Base
-
 ```bash
-$ npm install --save-dev eslint-config-prev
-```
-
-### 2. Dependencies
-
-To use the `base` config, you need to install ESLint dependencies:
-
-```bash
-$ npm install --save-dev babel-eslint eslint-plugin-import
+$ npm install --save-dev eslint-config-prev babel-eslint eslint-plugin-import
 ```
 
 For the `react` config, you **also** need to install `react` ESLint plugin:
