@@ -239,8 +239,7 @@ module.exports = {
     'no-underscore-dangle': ['error', {allowAfterThis: true, allowAfterSuper: true}],
     'no-unneeded-ternary': ['error', {defaultAssignment: false}],
     'no-whitespace-before-property': 'error',
-    // TODO: Enable when issue has been fixed.
-    // issue: https://github.com/eslint/eslint/issues/6488
+    // TODO: enable when issue has been fixed: https://github.com/eslint/eslint/issues/6488
     // 'object-curly-newline': ['error', {multiline: true, minProperties: 4}],
     'object-curly-spacing': 'error',
     'object-property-newline': ['error', {allowMultiplePropertiesPerLine: true}],
