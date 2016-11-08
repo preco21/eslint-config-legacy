@@ -55,7 +55,6 @@ module.exports = {
     'import/prefer-default-export': 'error',
     'import/max-dependencies': 'off',
     'import/no-unassigned-import': 'off',
-    // TODO: enable when issue has been fixed: https://github.com/benmosher/eslint-plugin-import/issues/653
-    // 'import/no-named-default': 'error',
+    'import/no-named-default': 'error',
   },
 };
