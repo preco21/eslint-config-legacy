@@ -35,13 +35,13 @@
     "ava": "^0.16.0",
     "babel-eslint": "^7.1.0",
     "eslint": "^3.9.1",
-    "eslint-plugin-import": "^2.0.1",
-    "eslint-plugin-react": "^6.5.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.6.0",
     "is-plain-obj": "^1.1.0"
   },
   "peerDependencies": {
     "babel-eslint": "^7.1.0",
     "eslint": "^3.9.1",
-    "eslint-plugin-import": "^2.0.1"
+    "eslint-plugin-import": "^2.2.0"
   }
 }
