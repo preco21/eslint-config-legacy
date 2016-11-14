@@ -150,6 +150,11 @@ module.exports = {
         property: 'assign',
         message: 'Use object spread operator `{...obj}` instead.',
       },
+      {
+        object: 'Math',
+        property: 'pow',
+        message: 'Use exponentiation operator `**` instead.',
+      },
     ],
     'no-sync': 'off',
 
