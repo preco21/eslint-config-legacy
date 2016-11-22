@@ -107,7 +107,7 @@ module.exports = {
         message: 'Use exponentiation operator `**` instead.',
       },
     ],
-    'no-return-assign': ['error', 'always'],
+    'no-return-assign': 'error',
     'no-return-await': 'error',
     'no-script-url': 'off',
     'no-self-assign': ['error', {props: true}],
