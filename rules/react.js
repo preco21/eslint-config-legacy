@@ -40,7 +40,7 @@ module.exports = {
     'react/prop-types': 'error',
     'react/react-in-jsx-scope': 'error',
     'react/require-optimization': 'off',
-    'react/require-render-return': 'error', // if nothing to render, return `null`
+    'react/require-render-return': 'error',
     'react/self-closing-comp': 'error',
     'react/sort-comp': 'error',
     'react/sort-prop-types': 'off',
