@@ -94,6 +94,19 @@ module.exports = {
     'no-param-reassign': ['error', {props: true}],
     'no-proto': 'error',
     'no-redeclare': 'error',
+    'no-restricted-properties': [
+      'error',
+      {
+        object: 'Object',
+        property: 'assign',
+        message: 'Use object spread operator `{...obj}` instead.',
+      },
+      {
+        object: 'Math',
+        property: 'pow',
+        message: 'Use exponentiation operator `**` instead.',
+      },
+    ],
     'no-return-assign': ['error', 'always'],
     'no-return-await': 'error',
     'no-script-url': 'off',
@@ -143,19 +156,6 @@ module.exports = {
     'no-process-env': 'off',
     'no-process-exit': 'off',
     'no-restricted-modules': 'off',
-    'no-restricted-properties': [
-      'error',
-      {
-        object: 'Object',
-        property: 'assign',
-        message: 'Use object spread operator `{...obj}` instead.',
-      },
-      {
-        object: 'Math',
-        property: 'pow',
-        message: 'Use exponentiation operator `**` instead.',
-      },
-    ],
     'no-sync': 'off',
 
     // stylistic issues
