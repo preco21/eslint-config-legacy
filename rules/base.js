@@ -26,7 +26,6 @@ module.exports = {
     'no-empty': ['error', {allowEmptyCatch: true}],
     'no-ex-assign': 'error',
     'no-extra-boolean-cast': 'error',
-    // issue: https://github.com/eslint/eslint/issues/3107
     'no-extra-parens': ['error', 'functions'],
     'no-extra-semi': 'error',
     'no-func-assign': 'error',
