@@ -48,7 +48,7 @@ module.exports = {
     // best practices
     'accessor-pairs': 'error',
     'array-callback-return': 'error',
-    'block-scoped-var': 'error', // rely on `no-var` rule
+    'block-scoped-var': 'error',
     'class-methods-use-this': 'off',
     'complexity': ['warn', 11],
     'consistent-return': 'error',
@@ -57,7 +57,7 @@ module.exports = {
     'dot-location': ['error', 'property'],
     'dot-notation': 'error',
     'eqeqeq': 'error',
-    'guard-for-in': 'error', // rely on `no-restricted-syntax` rule
+    'guard-for-in': 'error',
     'no-alert': 'warn',
     'no-caller': 'error',
     'no-case-declarations': 'error',
@@ -65,7 +65,7 @@ module.exports = {
     'no-else-return': 'error',
     'no-empty-function': 'error',
     'no-empty-pattern': 'error',
-    'no-eq-null': 'error', // rely on `eqeqeq` rule
+    'no-eq-null': 'error',
     'no-eval': 'error',
     'no-extend-native': 'error',
     'no-extra-bind': 'error',
@@ -124,7 +124,7 @@ module.exports = {
     'no-warning-comments': 'warn',
     'no-with': 'error',
     'radix': ['error', 'as-needed'],
-    'vars-on-top': 'error', // rely on `one-var` rule
+    'vars-on-top': 'error',
     'wrap-iife': ['error', 'inside', {functionPrototypeMethods: true}],
     'yoda': 'error',
 
@@ -136,7 +136,8 @@ module.exports = {
     'no-catch-shadow': 'off',
     'no-delete-var': 'error',
     'no-label-var': 'error',
-    'no-restricted-globals': ['error', 'isNaN', 'parseInt', 'parseFloat'], // use `Number` property functions instead
+    // use `Number` property functions instead
+    'no-restricted-globals': ['error', 'isNaN', 'parseInt', 'parseFloat'],
     'no-shadow-restricted-names': 'error',
     'no-shadow': 'error',
     'no-undef-init': 'error',
@@ -149,7 +150,7 @@ module.exports = {
     'callback-return': 'off',
     'global-require': 'off',
     'handle-callback-err': 'error',
-    'no-mixed-requires': 'error', // rely on `one-var` rule
+    'no-mixed-requires': 'error',
     'no-new-require': 'error',
     'no-path-concat': 'error',
     'no-process-env': 'off',
@@ -230,7 +231,7 @@ module.exports = {
     'no-mixed-spaces-and-tabs': 'error',
     'no-multiple-empty-lines': ['error', {max: 1, maxBOF: 0}],
     'no-negated-condition': 'error',
-    // Use separated function or switch-case
+    // use separated function or switch-case
     // http://stackoverflow.com/questions/32289340/alternative-to-nested-ternary-operator-in-js
     'no-nested-ternary': 'error',
     'no-new-object': 'error',
@@ -248,7 +249,7 @@ module.exports = {
     // 'object-curly-newline': ['error', {multiline: true, minProperties: 4}],
     'object-curly-spacing': 'error',
     'object-property-newline': ['error', {allowMultiplePropertiesPerLine: true}],
-    'one-var-declaration-per-line': 'error', // rely on `one-var` rule
+    'one-var-declaration-per-line': 'error',
     'one-var': ['error', 'never'],
     'operator-assignment': ['error', 'always'],
     'operator-linebreak': 'error',
