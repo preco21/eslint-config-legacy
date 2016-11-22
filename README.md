@@ -12,7 +12,7 @@
 ## Install
 
 ```bash
-$ npm install --save-dev eslint-config-prev babel-eslint eslint-plugin-import
+$ npm install --save-dev eslint-config-prev babel-eslint eslint-plugin-import eslint-plugin-babel
 ```
 
 For the `react` config, you **also** need to install `react` ESLint plugin:

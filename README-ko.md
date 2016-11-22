@@ -10,7 +10,7 @@
 ## 설치하기
 
 ```bash
-$ npm install --save-dev eslint-config-prev babel-eslint eslint-plugin-import
+$ npm install --save-dev eslint-config-prev babel-eslint eslint-plugin-import eslint-plugin-babel
 ```
 
 `react` 프리셋을 사용하려면, `react` ESLint 플러그인도 **함께** 설치해야 합니다:
