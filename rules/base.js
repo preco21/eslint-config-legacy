@@ -123,6 +123,7 @@ module.exports = {
     'no-warning-comments': 'warn',
     'no-with': 'error',
     'radix': ['error', 'as-needed'],
+    'require-await': 'error',
     'vars-on-top': 'error',
     'wrap-iife': ['error', 'inside', {functionPrototypeMethods: true}],
     'yoda': 'error',
