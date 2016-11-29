@@ -12,10 +12,10 @@ module.exports = {
     },
   },
   rules: {
-    // enable original eslint rules
+    // Enable original eslint rules
     'jsx-quotes': 'error',
 
-    // react rules
+    // React rules
     'react/display-name': 'off',
     'react/forbid-component-props': 'off',
     'react/forbid-prop-types': 'error',
@@ -46,7 +46,7 @@ module.exports = {
     'react/sort-prop-types': 'off',
     'react/style-prop-object': 'error',
 
-    // jsx specific rules
+    // JSX-specific rules
     'react/jsx-boolean-value': 'error',
     'react/jsx-closing-bracket-location': 'error',
     'react/jsx-curly-spacing': 'error',

@@ -18,11 +18,11 @@ module.exports = {
     'import/ignore': ['node_modules'],
   },
   rules: {
-    // static analysis
+    // Static analysis
     'import/no-unresolved': ['error', {commonjs: true}],
     'import/named': 'error',
     'import/default': 'error',
-    // TODO: enable when issue has been fixed: https://github.com/benmosher/eslint-plugin-import/issues/656
+    // TODO: Enable when issue has been fixed: https://github.com/benmosher/eslint-plugin-import/issues/656
     // 'import/namespace': ['error', {allowComputed: true}],
     'import/no-restricted-paths': 'off',
     'import/no-absolute-path': 'error',
@@ -30,22 +30,22 @@ module.exports = {
     'import/no-internal-modules': 'off',
     'import/no-webpack-loader-syntax': 'error',
 
-    // helpful warnings
+    // Helpful warnings
     'import/export': 'error',
     'import/no-named-as-default': 'error',
     'import/no-named-as-default-member': 'error',
-    // unstable rule: https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md
+    // Unstable rule: https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md
     'import/no-deprecated': 'off',
     'import/no-extraneous-dependencies': 'error',
     'import/no-mutable-exports': 'error',
 
-    // module systems
+    // Module systems
     'import/unambiguous': 'error',
     'import/no-commonjs': 'off',
     'import/no-amd': 'error',
     'import/no-nodejs-modules': 'off',
 
-    // style guide
+    // Style guide
     'import/first': 'error',
     'import/no-duplicates': 'error',
     'import/no-namespace': 'off',

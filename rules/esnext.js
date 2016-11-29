@@ -10,17 +10,17 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    // disable original eslint rules
+    // Disable original eslint rules
     'new-cap': 'off',
     'object-curly-spacing': 'off',
     'no-invalid-this': 'off',
 
-    // enhanced eslint rules
+    // Enhanced eslint rules
     'babel/new-cap': 'error',
     'babel/object-curly-spacing': 'error',
     'babel/no-invalid-this': 'error',
 
-    // babel rules
+    // Babel rules
     'babel/no-await-in-loop': 'error',
   },
 };

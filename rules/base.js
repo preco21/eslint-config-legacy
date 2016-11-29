@@ -13,7 +13,7 @@ module.exports = {
     },
   },
   rules: {
-    // possible errors
+    // Possible errors
     'no-cond-assign': ['error', 'always'],
     'no-console': 'warn',
     'no-constant-condition': 'error',
@@ -45,7 +45,7 @@ module.exports = {
     'valid-jsdoc': 'off',
     'valid-typeof': ['error', {requireStringLiterals: true}],
 
-    // best practices
+    // Best practices
     'accessor-pairs': 'error',
     'array-callback-return': 'error',
     'block-scoped-var': 'error',
@@ -128,15 +128,15 @@ module.exports = {
     'wrap-iife': ['error', 'inside', {functionPrototypeMethods: true}],
     'yoda': 'error',
 
-    // strict mode
+    // Strict mode
     'strict': 'error',
 
-    // variables
+    // Variables
     'init-declarations': 'error',
     'no-catch-shadow': 'off',
     'no-delete-var': 'error',
     'no-label-var': 'error',
-    // use `Number` property functions instead
+    // Use `Number` property functions instead
     'no-restricted-globals': ['error', 'isNaN', 'parseInt', 'parseFloat'],
     'no-shadow-restricted-names': 'error',
     'no-shadow': 'error',
@@ -146,7 +146,7 @@ module.exports = {
     'no-unused-vars': 'error',
     'no-use-before-define': ['error', 'nofunc'],
 
-    // node.js and commonjs
+    // Node.js and CommonJS
     'callback-return': 'off',
     'global-require': 'off',
     'handle-callback-err': 'error',
@@ -158,7 +158,7 @@ module.exports = {
     'no-restricted-modules': 'off',
     'no-sync': 'off',
 
-    // stylistic issues
+    // Stylistic issues
     'array-bracket-spacing': 'error',
     'block-spacing': 'error',
     'brace-style': ['error', '1tbs', {allowSingleLine: true}],
@@ -232,12 +232,12 @@ module.exports = {
     'no-mixed-spaces-and-tabs': 'error',
     'no-multiple-empty-lines': ['error', {max: 1, maxBOF: 0}],
     'no-negated-condition': 'error',
-    // use separated function or switch-case
+    // Use separated function or switch-case
     // http://stackoverflow.com/questions/32289340/alternative-to-nested-ternary-operator-in-js
     'no-nested-ternary': 'error',
     'no-new-object': 'error',
     'no-plusplus': 'off',
-    // use for-of with Object.keys() instead of for-in
+    // Use for-of with Object.keys() instead of for-in
     // https://hacks.mozilla.org/2015/04/es6-in-depth-iterators-and-the-for-of-loop/
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
     'no-tabs': 'error',
@@ -246,7 +246,7 @@ module.exports = {
     'no-underscore-dangle': ['error', {allowAfterThis: true, allowAfterSuper: true}],
     'no-unneeded-ternary': ['error', {defaultAssignment: false}],
     'no-whitespace-before-property': 'error',
-    // TODO: enable when issue has been fixed: https://github.com/eslint/eslint/issues/6488
+    // TODO: Enable when issue has been fixed: https://github.com/eslint/eslint/issues/6488
     // 'object-curly-newline': ['error', {multiline: true, minProperties: 4}],
     'object-curly-spacing': 'error',
     'object-property-newline': ['error', {allowMultiplePropertiesPerLine: true}],
@@ -271,7 +271,7 @@ module.exports = {
     'unicode-bom': 'error',
     'wrap-regex': 'off',
 
-    // ecmascript 6 rules
+    // ECMAScript 6 (2015)
     'arrow-body-style': ['error', 'as-needed'],
     'arrow-parens': 'error',
     'arrow-spacing': 'error',
