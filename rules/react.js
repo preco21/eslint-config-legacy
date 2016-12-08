@@ -19,6 +19,7 @@ module.exports = {
     'react/display-name': 'off',
     'react/forbid-component-props': 'off',
     'react/forbid-prop-types': 'error',
+    'react/no-array-index-key': 'error',
     'react/no-children-prop': 'error',
     'react/no-danger': 'error',
     'react/no-danger-with-children': 'error',
