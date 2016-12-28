@@ -5,7 +5,7 @@
 [![Build Status](https://img.shields.io/travis/preco21/eslint-config-prev/master.svg?style=flat-square)](https://travis-ci.org/preco21/eslint-config-prev)
 [![Dependency Status](https://dependencyci.com/github/preco21/eslint-config-prev/badge?style=flat-square)](https://dependencyci.com/github/preco21/eslint-config-prev)
 
-> ESLint sharable config focused on use of ES2015+
+> ESLint shareable config focused to utilize ES2015+
 
 **Translations:** [Korean](./README-ko.md)
 

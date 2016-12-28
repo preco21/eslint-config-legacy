@@ -5,7 +5,7 @@
 [![Build Status](https://img.shields.io/travis/preco21/eslint-config-prev/master.svg?style=flat-square)](https://travis-ci.org/preco21/eslint-config-prev)
 [![Dependency Status](https://dependencyci.com/github/preco21/eslint-config-prev/badge?style=flat-square)](https://dependencyci.com/github/preco21/eslint-config-prev)
 
-> ES2015+ 를 초점으로 둔 ESLint 프리셋
+> ES2015+의 활용에 초점을 맞춘 공유 가능한 ESLint 설정
 
 ## 설치하기
 
