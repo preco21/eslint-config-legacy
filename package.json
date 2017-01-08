@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-prev",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "description": "ESLint shareable config focused to utilize ES2015+",
   "author": "Plusb Preco <plusb21@gmail.com>",
   "main": "index.js",
