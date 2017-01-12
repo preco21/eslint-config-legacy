@@ -164,7 +164,8 @@ module.exports = {
     'block-spacing': 'error',
     'brace-style': ['error', '1tbs', {allowSingleLine: true}],
     'camelcase': ['error', {properties: 'never'}],
-    'capitalized-comments': ['error', 'always', {ignoreInlineComments: true}],
+    // TODO: Enable when false positive issue has been fixed
+    // 'capitalized-comments': ['error', 'always', {ignoreInlineComments: true}],
     'comma-dangle': [
       'error',
       {
