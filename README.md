@@ -47,14 +47,6 @@ env:
   browser: true
 ```
 
-If you are on [Electron](electron.atom.io) environment, you may need to add `electron` to `core-modules`:
-
-```yaml
-extends: prev
-settings:
-  import/core-modules: electron
-```
-
 You can find details about ESLint configuration [here](http://eslint.org/docs/user-guide/configuring).
 
 ## Badge

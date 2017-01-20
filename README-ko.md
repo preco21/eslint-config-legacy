@@ -45,14 +45,6 @@ env:
   browser: true
 ```
 
-[Electron](electron.atom.io) 환경이라면, `core-modules` 설정에 `electron`을 추가해야 합니다:
-
-```yaml
-extends: prev
-settings:
-  import/core-modules: electron
-```
-
 ESLint 설정에 대한 자세한 사항은 [여기](http://eslint.org/docs/user-guide/configuring)에서 확인할 수 있습니다.
 
 ## 배지
