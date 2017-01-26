@@ -27,6 +27,7 @@ module.exports = {
     'no-empty': ['error', {allowEmptyCatch: true}],
     'no-ex-assign': 'error',
     'no-extra-boolean-cast': 'error',
+    // TODO: Apply string option to `all`, enable `ignoreJSX` option.
     'no-extra-parens': ['error', 'functions'],
     'no-extra-semi': 'error',
     'no-func-assign': 'error',
