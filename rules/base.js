@@ -123,6 +123,7 @@ module.exports = {
     'no-void': 'error',
     'no-warning-comments': 'warn',
     'no-with': 'error',
+    'prefer-promise-reject-errors': 'error',
     'radix': ['error', 'as-needed'],
     'require-await': 'error',
     'vars-on-top': 'error',
