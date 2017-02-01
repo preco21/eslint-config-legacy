@@ -297,7 +297,7 @@ module.exports = {
     'object-shorthand': ['error', 'always', {avoidExplicitReturnArrows: true}],
     'prefer-arrow-callback': 'error',
     'prefer-const': ['error', {destructuring: 'all'}],
-    'prefer-destructuring': ['error', {array: false}, {enforceForRenamedProperties: true}],
+    'prefer-destructuring': ['error', {}, {enforceForRenamedProperties: true}],
     'prefer-numeric-literals': 'error',
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
