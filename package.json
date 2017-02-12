@@ -5,8 +5,7 @@
   "author": "Plusb Preco <plusb21@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint && ava",
-    "lint": "eslint ."
+    "test": "eslint . && ava"
   },
   "engines": {
     "node": ">= 4"
