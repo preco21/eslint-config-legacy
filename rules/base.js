@@ -147,7 +147,7 @@ module.exports = {
     'no-undef': 'error',
     'no-undefined': 'off',
     'no-unused-vars': 'error',
-    'no-use-before-define': ['error', 'nofunc'],
+    'no-use-before-define': ['error', {functions: false, variables: false}],
 
     // Node.js and CommonJS
     'callback-return': 'off',
