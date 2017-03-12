@@ -15,6 +15,7 @@ module.exports = {
   rules: {
     // Possible errors
     'no-await-in-loop': 'error',
+    'no-compare-neg-zero': 'error',
     'no-cond-assign': ['error', 'always'],
     'no-console': 'warn',
     'no-constant-condition': 'error',
