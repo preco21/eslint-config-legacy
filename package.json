@@ -32,16 +32,16 @@
   ],
   "devDependencies": {
     "ava": "^0.18.1",
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.17.1",
+    "babel-eslint": "^7.2.0",
+    "eslint": "^3.18.0",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-react": "^6.9.0",
+    "eslint-plugin-react": "^6.10.3",
     "is-plain-obj": "^1.1.0"
   },
   "peerDependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.17.1",
+    "babel-eslint": "^7.2.0",
+    "eslint": "^3.18.0",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-import": "^2.2.0"
   }
