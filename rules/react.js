@@ -49,6 +49,7 @@ module.exports = {
     'react/sort-comp': 'error',
     'react/sort-prop-types': 'off',
     'react/style-prop-object': 'error',
+    'react/void-dom-elements-no-children': 'error',
 
     // JSX-specific rules
     'react/jsx-boolean-value': 'error',
