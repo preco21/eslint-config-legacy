@@ -241,13 +241,13 @@ module.exports = {
     'no-multi-assign': 'error',
     'no-multiple-empty-lines': ['error', {max: 1, maxBOF: 0}],
     'no-negated-condition': 'error',
-    // TODO: Consider about to disable this rule again
+    // TODO: Consider about disabling this rule again
     // Use separated function or switch-case
     // http://stackoverflow.com/questions/32289340/alternative-to-nested-ternary-operator-in-js
     'no-nested-ternary': 'error',
     'no-new-object': 'error',
     'no-plusplus': 'off',
-    // Use for-of with Object.keys() instead of for-in
+    // Use `for-of` with `Object.keys()` instead of `for-in`
     // https://hacks.mozilla.org/2015/04/es6-in-depth-iterators-and-the-for-of-loop/
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
     'no-tabs': 'error',
