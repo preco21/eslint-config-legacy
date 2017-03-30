@@ -70,7 +70,13 @@ module.exports = {
     'react/jsx-no-target-blank': 'error',
     'react/jsx-no-undef': 'error',
     'react/jsx-pascal-case': 'error',
-    'react/jsx-sort-props': 'off',
+    'react/jsx-sort-props': [
+      'error',
+      {
+        callbacksLast: true,
+        shorthandLast: true,
+      },
+    ],
     'react/jsx-space-before-closing': 'error',
     'react/jsx-tag-spacing': 'error',
     'react/jsx-uses-react': 'error',
