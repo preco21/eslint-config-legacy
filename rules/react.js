@@ -20,6 +20,7 @@ module.exports = {
     'react/forbid-component-props': 'off',
     'react/forbid-elements': 'off',
     'react/forbid-prop-types': 'error',
+    'react/forbid-foreign-prop-types': 'error',
     'react/no-array-index-key': 'error',
     'react/no-children-prop': 'error',
     'react/no-danger': 'error',
