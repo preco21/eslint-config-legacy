@@ -30,6 +30,7 @@ module.exports = {
     'no-extra-boolean-cast': 'error',
     'no-extra-parens': ['error', 'all', {
       returnAssign: false,
+      nestedBinaryExpressions: false,
       ignoreJSX: 'multi-line',
     }],
     'no-extra-semi': 'error',
