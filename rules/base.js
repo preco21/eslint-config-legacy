@@ -241,6 +241,7 @@ module.exports = {
     'no-multi-assign': 'error',
     'no-multiple-empty-lines': ['error', {max: 1, maxBOF: 0}],
     'no-negated-condition': 'error',
+    // TODO: Consider about to disable this rule again
     // Use separated function or switch-case
     // http://stackoverflow.com/questions/32289340/alternative-to-nested-ternary-operator-in-js
     'no-nested-ternary': 'error',
