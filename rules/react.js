@@ -75,6 +75,7 @@ module.exports = {
       {
         callbacksLast: true,
         shorthandLast: true,
+        noSortAlphabetically: true,
       },
     ],
     'react/jsx-space-before-closing': 'error',
