@@ -230,7 +230,7 @@ module.exports = {
     'new-parens': 'error',
     'newline-after-var': 'off',
     'newline-before-return': 'off',
-    'newline-per-chained-call': 'error',
+    'newline-per-chained-call': ['error', {ignoreChainWithDepth: 3}],
     'no-array-constructor': 'error',
     'no-bitwise': 'off',
     'no-continue': 'error',
