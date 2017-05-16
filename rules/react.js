@@ -58,7 +58,7 @@ module.exports = {
     'react/jsx-curly-spacing': 'error',
     'react/jsx-equals-spacing': 'error',
     'react/jsx-filename-extension': ['error', {extensions: ['.js', '.jsx']}],
-    'react/jsx-first-prop-new-line': ['error', 'multiline'],
+    'react/jsx-first-prop-new-line': 'error',
     'react/jsx-handler-names': 'error',
     'react/jsx-indent': ['error', 2],
     'react/jsx-indent-props': ['error', 2],
