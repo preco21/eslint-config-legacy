@@ -80,7 +80,6 @@ module.exports = {
         reservedFirst: true,
       },
     ],
-    'react/jsx-space-before-closing': 'error',
     'react/jsx-tag-spacing': 'error',
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
