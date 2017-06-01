@@ -288,7 +288,7 @@ module.exports = {
     'arrow-parens': 'error',
     'arrow-spacing': 'error',
     'constructor-super': 'error',
-    'generator-star-spacing': 'error',
+    'generator-star-spacing': ['error', 'after'],
     'no-class-assign': 'error',
     'no-confusing-arrow': 'off',
     'no-const-assign': 'error',
