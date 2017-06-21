@@ -14,6 +14,7 @@ module.exports = {
   },
   rules: {
     // Possible errors
+    'for-direction': 'error',
     'no-await-in-loop': 'error',
     'no-compare-neg-zero': 'error',
     'no-cond-assign': ['error', 'always'],
@@ -161,6 +162,7 @@ module.exports = {
     'callback-return': 'off',
     'global-require': 'off',
     'handle-callback-err': 'error',
+    'no-buffer-constructor': 'error',
     'no-mixed-requires': 'error',
     'no-new-require': 'error',
     'no-path-concat': 'error',
@@ -170,7 +172,9 @@ module.exports = {
     'no-sync': 'off',
 
     // Stylistic issues
+    'array-bracket-newline': ['error', {multiline: true}],
     'array-bracket-spacing': 'error',
+    'array-element-newline': ['error', {multiline: true}],
     'block-spacing': 'error',
     'brace-style': ['error', '1tbs', {allowSingleLine: true}],
     'camelcase': ['error', {properties: 'never'}],
@@ -270,8 +274,9 @@ module.exports = {
     'quote-props': ['error', 'as-needed'],
     'quotes': ['error', 'single'],
     'require-jsdoc': 'off',
-    'semi-spacing': 'error',
     'semi': 'error',
+    'semi-spacing': 'error',
+    'semi-style': 'error',
     'sort-keys': 'off',
     'sort-vars': 'off',
     'space-before-blocks': 'error',
@@ -280,6 +285,7 @@ module.exports = {
     'space-infix-ops': 'error',
     'space-unary-ops': 'error',
     'spaced-comment': ['error', 'always', {block: {balanced: true}}],
+    'switch-colon-spacing': 'error',
     'template-tag-spacing': 'error',
     'unicode-bom': 'error',
     'wrap-regex': 'off',
