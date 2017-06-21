@@ -262,8 +262,7 @@ module.exports = {
     'no-unneeded-ternary': ['error', {defaultAssignment: false}],
     'no-whitespace-before-property': 'error',
     'nonblock-statement-body-position': 'off',
-    // TODO: Enable when issue has been fixed: https://github.com/eslint/eslint/issues/6488
-    // 'object-curly-newline': ['error', {multiline: true, minProperties: 4}],
+    'object-curly-newline': ['error', {consistent: true}],
     'object-curly-spacing': 'error',
     'object-property-newline': ['error', {allowMultiplePropertiesPerLine: true}],
     'one-var-declaration-per-line': 'error',
