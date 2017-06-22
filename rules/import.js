@@ -56,5 +56,14 @@ module.exports = {
     'import/max-dependencies': 'off',
     'import/no-unassigned-import': 'off',
     'import/no-named-default': 'error',
+    'import/no-anonymous-default-export': [
+      'error',
+      {
+        allowArray: true,
+        allowArrowFunction: true,
+        allowLiteral: true,
+        allowObject: true,
+      },
+    ],
   },
 };
