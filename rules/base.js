@@ -272,6 +272,15 @@ module.exports = {
     'operator-assignment': ['error', 'always'],
     'operator-linebreak': 'error',
     'padded-blocks': ['error', 'never'],
+    'padding-line-between-statements': [
+      'error',
+      // Directives
+      {blankLine: 'always', prev: 'directive', next: '*'},
+      {blankLine: 'any', prev: 'directive', next: 'directive'},
+      // Multiline block-like
+      {blankLine: 'always', prev: '*', next: 'multiline-block-like'},
+      {blankLine: 'always', prev: 'multiline-block-like', next: '*'},
+    ],
     'quote-props': ['error', 'as-needed'],
     'quotes': ['error', 'single'],
     'require-jsdoc': 'off',
