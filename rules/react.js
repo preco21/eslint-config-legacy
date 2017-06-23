@@ -16,6 +16,7 @@ module.exports = {
     'jsx-quotes': 'error',
 
     // React rules
+    'react/default-props-match-prop-types': 'error',
     'react/display-name': 'off',
     'react/forbid-component-props': 'off',
     'react/forbid-elements': 'off',
@@ -32,6 +33,7 @@ module.exports = {
     'react/no-find-dom-node': 'error',
     'react/no-is-mounted': 'error',
     'react/no-multi-comp': ['error', {ignoreStateless: true}],
+    'react/no-redundant-should-component-update': 'error',
     'react/no-render-return-value': 'error',
     'react/no-set-state': 'off',
     'react/no-string-refs': 'error',
@@ -55,7 +57,8 @@ module.exports = {
     // JSX-specific rules
     'react/jsx-boolean-value': 'error',
     'react/jsx-closing-bracket-location': 'error',
-    'react/jsx-curly-spacing': 'error',
+    'react/jsx-closing-tag-location': 'error',
+    'react/jsx-curly-spacing': ['error', {when: 'never', children: true}],
     'react/jsx-equals-spacing': 'error',
     'react/jsx-filename-extension': ['error', {extensions: ['.js', '.jsx']}],
     'react/jsx-first-prop-new-line': 'error',
