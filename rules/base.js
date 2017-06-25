@@ -280,6 +280,8 @@ module.exports = {
       // Multiline block-like
       {blankLine: 'always', prev: '*', next: 'multiline-block-like'},
       {blankLine: 'always', prev: 'multiline-block-like', next: '*'},
+      // Switches
+      {blankLine: 'never', prev: 'case', next: ['case', 'default']},
     ],
     'quote-props': ['error', 'as-needed'],
     'quotes': ['error', 'single'],
