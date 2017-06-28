@@ -31,7 +31,7 @@
     "styleguide"
   ],
   "devDependencies": {
-    "ava": "^0.19.1",
+    "ava": "^0.20.0",
     "babel-eslint": "^7.2.3",
     "eslint": "^4.1.0",
     "eslint-plugin-babel": "^4.1.1",
