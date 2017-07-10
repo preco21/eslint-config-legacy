@@ -234,7 +234,7 @@ module.exports = {
     'max-params': ['warn', 5],
     'max-statements-per-line': 'warn',
     'max-statements': 'off',
-    'multiline-ternary': 'off',
+    'multiline-ternary': ['error', 'always-multiline'],
     'new-cap': 'error',
     'new-parens': 'error',
     'newline-per-chained-call': ['error', {ignoreChainWithDepth: 3}],
