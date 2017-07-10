@@ -58,7 +58,9 @@ module.exports = {
     'react/jsx-boolean-value': 'error',
     'react/jsx-closing-bracket-location': 'error',
     'react/jsx-closing-tag-location': 'error',
-    'react/jsx-curly-spacing': ['error', {when: 'never', children: true}],
+    // TODO: Enable this rule when following issue has fixed:
+    //  https://github.com/yannickcr/eslint-plugin-react/issues/1290
+    // 'react/jsx-curly-spacing': ['error', {when: 'never', children: true}],
     'react/jsx-equals-spacing': 'error',
     'react/jsx-filename-extension': ['error', {extensions: ['.js', '.jsx']}],
     'react/jsx-first-prop-new-line': 'error',
