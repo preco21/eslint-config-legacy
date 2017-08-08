@@ -205,23 +205,7 @@ module.exports = {
     'id-blacklist': 'off',
     'id-length': 'off',
     'id-match': 'off',
-    'indent': [
-      'error',
-      2,
-      {
-        SwitchCase: 1,
-        MemberExpression: 1,
-        FunctionDeclaration: {
-          parameters: 1,
-        },
-        FunctionExpression: {
-          parameters: 1,
-        },
-        CallExpression: {
-          arguments: 1,
-        },
-      },
-    ],
+    'indent': ['error', 2],
     'jsx-quotes': 'off',
     'key-spacing': 'error',
     'line-comment-position': 'off',
