@@ -16,6 +16,7 @@ module.exports = {
     'jsx-quotes': 'error',
 
     // React rules
+    'react/boolean-prop-naming': 'off',
     'react/default-props-match-prop-types': 'error',
     'react/display-name': 'off',
     'react/forbid-component-props': 'off',
