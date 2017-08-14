@@ -37,6 +37,7 @@ module.exports = {
     'react/no-redundant-should-component-update': 'error',
     'react/no-render-return-value': 'error',
     'react/no-set-state': 'off',
+    'react/no-typos': 'error',
     'react/no-string-refs': 'error',
     'react/no-unescaped-entities': 'error',
     'react/no-unknown-property': 'error',
