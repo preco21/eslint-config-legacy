@@ -156,7 +156,7 @@ module.exports = {
     'no-undef-init': 'error',
     'no-undef': 'error',
     'no-undefined': 'off',
-    'no-unused-vars': 'error',
+    'no-unused-vars': ['error', {ignoreRestSiblings: true}],
     'no-use-before-define': ['error', {functions: false, variables: false}],
 
     // Node.js and CommonJS
