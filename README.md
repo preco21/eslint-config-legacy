@@ -1,4 +1,4 @@
-# [![prev](https://rawgit.com/preco21/eslint-config-prev/master/media/logo.svg)](https://github.com/preco21/eslint-config-prev)
+# [![prev](https://rawgit.com/preco21/eslint-config-prev/master/media/logo.png)](https://github.com/preco21/eslint-config-prev)
 
 [![Code Style Prev](https://img.shields.io/badge/code%20style-prev-32c8fc.svg?style=flat-square)](https://github.com/preco21/eslint-config-prev)
 [![NPM Version](https://img.shields.io/npm/v/eslint-config-prev.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-prev)
