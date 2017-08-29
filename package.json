@@ -23,11 +23,17 @@
     "react-native.js"
   ],
   "keywords": [
+    "codestyle",
+    "config",
+    "ecmascript 6",
+    "es2015",
+    "es6",
     "eslint",
     "eslintconfig",
-    "config",
+    "esnext",
+    "fancy",
+    "futuristic",
     "prev",
-    "codestyle",
     "styleguide"
   ],
   "devDependencies": {
