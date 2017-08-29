@@ -20,7 +20,7 @@
     "rules",
     "index.js",
     "react.js",
-    "react-native.js"
+    "native.js"
   ],
   "keywords": [
     "codestyle",

@@ -51,10 +51,11 @@ test('`react.js` is valid config', (t) => {
   t.true(Array.isArray(config.extends));
 });
 
-test('`react-native.js` is valid config', (t) => {
-  const config = require('../react-native');
+test('`native.js` is valid config', (t) => {
+  const config = require('../native');
 
   t.true(isPlainObj(config));
   t.true(Array.isArray(config.extends));
   t.true(isPlainObj(config.settings));
+  t.true(isPlainObj(config.globals));
 });
