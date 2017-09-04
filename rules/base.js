@@ -202,6 +202,7 @@ module.exports = {
     'func-name-matching': 'error',
     'func-names': ['error', 'never'],
     'func-style': ['error', 'declaration', {allowArrowFunctions: true}],
+    'function-paren-newline': ['error', 'consistent'],
     'id-blacklist': 'off',
     'id-length': 'off',
     'id-match': 'off',
