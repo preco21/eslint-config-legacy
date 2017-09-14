@@ -71,7 +71,7 @@ Every config enables `modules` syntax by default. Add next to config if you want
 
 ```yaml
 parserOptions:
-  sourceType: 'script'
+  sourceType: script
 ```
 
 ### Using ES5 instead of ES2015+
