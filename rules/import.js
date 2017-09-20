@@ -22,7 +22,8 @@ module.exports = {
     'import/no-unresolved': ['error', {commonjs: true}],
     'import/named': 'error',
     'import/default': 'error',
-    // TODO: Enable when issue has been fixed: https://github.com/benmosher/eslint-plugin-import/issues/656
+    // TODO: Enable when issue has been fixed:
+    // https://github.com/benmosher/eslint-plugin-import/issues/656
     // 'import/namespace': ['error', {allowComputed: true}],
     'import/no-restricted-paths': 'off',
     'import/no-absolute-path': 'error',
@@ -34,8 +35,9 @@ module.exports = {
     'import/export': 'error',
     'import/no-named-as-default': 'error',
     'import/no-named-as-default-member': 'error',
-    // Unstable rule: https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md
-    'import/no-deprecated': 'off',
+    // TODO: Enable when the rule goes more stable
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md
+    // 'import/no-deprecated': 'error',
     'import/no-extraneous-dependencies': 'error',
     'import/no-mutable-exports': 'error',
 
