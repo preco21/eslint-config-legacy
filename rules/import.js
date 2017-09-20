@@ -40,7 +40,9 @@ module.exports = {
     'import/no-mutable-exports': 'error',
 
     // Module systems
-    'import/unambiguous': 'error',
+    // TODO: Disable rule due to Unambiguous JavaScript Grammar is rejected from tc39 and moved to inactive proposals
+    // https://github.com/tc39/proposals/blob/eb23a429df79d13e0d8fff89dc38a53f5085fa1b/inactive-proposals.md
+    // 'import/unambiguous': 'error',
     'import/no-commonjs': 'off',
     'import/no-amd': 'error',
     'import/no-nodejs-modules': 'off',
