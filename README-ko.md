@@ -67,7 +67,7 @@ globals:
 
 ```yaml
 parserOptions:
-  sourceType: 'script'
+  sourceType: script
 ```
 
 ### ES2015+ 대신 ES5 사용하기
