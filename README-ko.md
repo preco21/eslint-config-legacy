@@ -41,7 +41,7 @@ extends: prev
 * `prev/react`: React 프로젝트를 위한 React와 JSX 지원을 포함하는 구성입니다.
 * `prev/native`: ReactNative 프로젝트를 위한 React와 JSX 지원을 포함하는 구성입니다.
 
-_브라우저_ 환경에 있다면, `env` 필드에 `browser` 옵션을 추가해야 합니다:
+_브라우저_ 환경의 코드에서 사용하려면, `env` 필드에 `browser` 옵션을 추가해야 합니다:
 
 ```yaml
 env:
