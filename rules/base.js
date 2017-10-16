@@ -173,7 +173,7 @@ module.exports = {
     'no-sync': 'off',
 
     // Stylistic issues
-    'array-bracket-newline': ['error', 'array-bracket-newline'],
+    'array-bracket-newline': ['error', 'consistent'],
     'array-bracket-spacing': 'error',
     // TODO: Enable when `consistent` option is available?
     // 'array-element-newline': ['error', {multiline: true}],
