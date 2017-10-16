@@ -212,6 +212,7 @@ module.exports = {
     'keyword-spacing': 'error',
     'linebreak-style': 'error',
     'lines-around-comment': 'off',
+    'lines-between-class-members': 'error',
     'max-depth': 'warn',
     'max-len': 'off',
     'max-lines': 'off',
