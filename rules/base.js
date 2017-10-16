@@ -220,6 +220,7 @@ module.exports = {
     'max-params': ['warn', 5],
     'max-statements': 'off',
     'max-statements-per-line': 'warn',
+    'multiline-comment-style': 'off',
     'multiline-ternary': ['error', 'always-multiline'],
     'new-cap': 'error',
     'new-parens': 'error',
