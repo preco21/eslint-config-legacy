@@ -43,7 +43,7 @@
     "eslint-plugin-react": "^7.4.0"
   },
   "devDependencies": {
-    "ava": "^0.22.0",
+    "ava": "^0.23.0",
     "eslint": "^4.9.0",
     "is-plain-obj": "^1.1.0"
   },
