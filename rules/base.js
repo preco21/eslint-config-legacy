@@ -107,6 +107,66 @@ module.exports = {
     'no-restricted-properties': [
       'error',
       {
+        object: 'global',
+        property: 'isFinite',
+        message: 'Use `Number.isFinite()` instead.',
+      },
+      {
+        object: 'self',
+        property: 'isFinite',
+        message: 'Use `Number.isFinite()` instead.',
+      },
+      {
+        object: 'window',
+        property: 'isFinite',
+        message: 'Use `Number.isFinite()` instead.',
+      },
+      {
+        object: 'global',
+        property: 'isNaN',
+        message: 'Use `Number.isNaN()` instead.',
+      },
+      {
+        object: 'self',
+        property: 'isNaN',
+        message: 'Use `Number.isNaN()` instead.',
+      },
+      {
+        object: 'window',
+        property: 'isNaN',
+        message: 'Use `Number.isNaN()` instead.',
+      },
+      {
+        object: 'global',
+        property: 'parseInt',
+        message: 'Use `Number.parseInt()` instead.',
+      },
+      {
+        object: 'self',
+        property: 'parseInt',
+        message: 'Use `Number.parseInt()` instead.',
+      },
+      {
+        object: 'window',
+        property: 'parseInt',
+        message: 'Use `Number.parseInt()` instead.',
+      },
+      {
+        object: 'global',
+        property: 'parseFloat',
+        message: 'Use `Number.parseFloat()` instead.',
+      },
+      {
+        object: 'self',
+        property: 'parseFloat',
+        message: 'Use `Number.parseFloat()` instead.',
+      },
+      {
+        object: 'window',
+        property: 'parseFloat',
+        message: 'Use `Number.parseFloat()` instead.',
+      },
+      {
         object: 'Object',
         property: 'assign',
         message: 'Use object spread operator `{...obj}` instead.',
@@ -115,6 +175,14 @@ module.exports = {
         object: 'Math',
         property: 'pow',
         message: 'Use exponentiation operator `**` instead.',
+      },
+      {
+        property: '__defineGetter__',
+        message: 'Use `Object.defineProperty()` instead.',
+      },
+      {
+        property: '__defineSetter__',
+        message: 'Use `Object.defineProperty()` instead.',
       },
     ],
     'no-return-assign': 'error',
