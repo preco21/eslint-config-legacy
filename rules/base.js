@@ -150,7 +150,7 @@ module.exports = {
     'no-delete-var': 'error',
     'no-label-var': 'error',
     // Use `Number` property functions instead
-    'no-restricted-globals': ['error', 'isNaN', 'parseInt', 'parseFloat'],
+    'no-restricted-globals': ['error', 'isFinite', 'isNaN', 'parseInt', 'parseFloat'],
     'no-shadow-restricted-names': 'error',
     'no-shadow': 'error',
     'no-undef-init': 'error',
