@@ -335,6 +335,7 @@ module.exports = {
       // Multiline block-like
       {blankLine: 'always', prev: '*', next: 'multiline-block-like'},
       {blankLine: 'always', prev: 'multiline-block-like', next: '*'},
+      {blankLine: 'any', prev: ['const', 'let', 'var'], next: 'multiline-block-like'},
       // Switches
       {blankLine: 'never', prev: 'case', next: ['case', 'default']},
     ],
