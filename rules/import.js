@@ -51,6 +51,7 @@ module.exports = {
 
     // Style guide
     'import/first': 'error',
+    'import/exports-last': 'off',
     'import/no-duplicates': 'error',
     'import/no-namespace': 'off',
     'import/extensions': ['error', {js: 'never', jsx: 'never'}],
