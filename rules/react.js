@@ -22,6 +22,8 @@ module.exports = {
     'react/display-name': 'off',
     'react/forbid-component-props': 'off',
     'react/forbid-elements': 'off',
+    // TODO: Consider to add new options
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
     'react/forbid-prop-types': 'error',
     'react/forbid-foreign-prop-types': 'error',
     'react/no-access-state-in-setstate': 'error',
