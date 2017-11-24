@@ -5,7 +5,7 @@
   "author": "Plusb Preco <plusb21@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "test": "eslint . && ava"
+    "test": "eslint . && jest"
   },
   "engines": {
     "node": ">= 4"
@@ -43,11 +43,14 @@
     "eslint-plugin-react": "^7.5.1"
   },
   "devDependencies": {
-    "ava": "^0.23.0",
     "eslint": "^4.11.0",
-    "is-plain-obj": "^1.1.0"
+    "is-plain-obj": "^1.1.0",
+    "jest": "^21.2.1"
   },
   "peerDependencies": {
     "eslint": "^4.11.0"
-  }
+  },
+  "testMatch": [
+    "**/test/*.spec.js"
+  ]
 }
