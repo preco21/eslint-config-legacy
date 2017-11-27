@@ -81,7 +81,7 @@ module.exports = {
     'react/jsx-no-literals': 'off',
     'react/jsx-no-target-blank': 'error',
     'react/jsx-no-undef': 'error',
-    'react/jsx-one-expression-per-line': 'error',
+    'react/jsx-one-expression-per-line': 'off',
     'react/jsx-curly-brace-presence': 'error',
     'react/jsx-pascal-case': 'error',
     'react/jsx-sort-props': [
