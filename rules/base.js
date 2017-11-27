@@ -273,6 +273,8 @@ module.exports = {
     'id-blacklist': 'off',
     'id-length': 'off',
     'id-match': 'off',
+    // TODO: Need to consider more about this rule
+    'implicit-arrow-linebreak': 'off',
     'indent': ['error', 2, {SwitchCase: 1}],
     'jsx-quotes': 'off',
     'key-spacing': 'error',
