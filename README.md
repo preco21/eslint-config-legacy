@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/preco21/eslint-config-prev.svg?branch=master)](https://travis-ci.org/preco21/eslint-config-prev)
 [![Dependency Status](https://dependencyci.com/github/preco21/eslint-config-prev/badge)](https://dependencyci.com/github/preco21/eslint-config-prev)
 
-> ESLint shareable config for make use of ES2015+
+> ESLint shareable config to make use of ES2015+
 
 **Translations:** [Korean](./README-ko.md)
 
