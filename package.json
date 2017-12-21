@@ -45,7 +45,7 @@
   "devDependencies": {
     "eslint": "^4.13.1",
     "is-plain-obj": "^1.1.0",
-    "jest": "^21.2.1"
+    "jest": "^22.0.0"
   },
   "peerDependencies": {
     "eslint": "^4.12.0"
