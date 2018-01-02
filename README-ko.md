@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/preco21/eslint-config-prev.svg?branch=master)](https://travis-ci.org/preco21/eslint-config-prev)
 [![Dependency Status](https://dependencyci.com/github/preco21/eslint-config-prev/badge)](https://dependencyci.com/github/preco21/eslint-config-prev)
 
-> ES2015+의 활용을 위한 ESLint 구성
+> ES2015+ 활용을 위한 ESLint 구성
 
 ## 설치하기
 
