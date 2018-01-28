@@ -40,15 +40,15 @@
     "babel-eslint": "^8.2.1",
     "eslint-plugin-babel": "^4.1.2",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-react": "^7.5.1"
+    "eslint-plugin-react": "^7.6.0"
   },
   "devDependencies": {
-    "eslint": "^4.15.0",
+    "eslint": "^4.16.0",
     "is-plain-obj": "^1.1.0",
-    "jest": "^22.0.0"
+    "jest": "^22.1.4"
   },
   "peerDependencies": {
-    "eslint": "^4.15.0"
+    "eslint": "^4.16.0"
   },
   "testMatch": [
     "**/test/*.spec.js"
