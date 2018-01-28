@@ -54,7 +54,7 @@ module.exports = {
     'no-unsafe-finally': 'error',
     'no-unsafe-negation': 'error',
     'use-isnan': 'error',
-    'valid-jsdoc': 'off',
+    'valid-jsdoc': 'error',
     'valid-typeof': ['error', {requireStringLiterals: true}],
 
     // Best practices
