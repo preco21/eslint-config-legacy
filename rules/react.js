@@ -111,5 +111,6 @@ module.exports = {
         prop: 'parens-new-line',
       },
     ],
+    'react/jsx-child-element-spacing': 'off',
   },
 };
