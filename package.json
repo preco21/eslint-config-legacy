@@ -49,8 +49,5 @@
   },
   "peerDependencies": {
     "eslint": "^4.16.0"
-  },
-  "testMatch": [
-    "**/test/*.spec.js"
-  ]
+  }
 }
