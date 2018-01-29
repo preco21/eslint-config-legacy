@@ -86,6 +86,7 @@ module.exports = {
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-curly-brace-presence': 'error',
     'react/jsx-pascal-case': 'error',
+    'react/jsx-sort-default-props': 'off',
     'react/jsx-sort-props': [
       'error',
       {
