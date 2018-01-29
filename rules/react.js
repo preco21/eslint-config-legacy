@@ -46,6 +46,7 @@ module.exports = {
     'react/no-typos': 'error',
     'react/no-unused-state': 'error',
     'react/no-string-refs': 'error',
+    'react/no-this-in-sfc': 'error',
     'react/no-unescaped-entities': 'error',
     'react/no-unknown-property': 'error',
     'react/no-unused-prop-types': 'error',
