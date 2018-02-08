@@ -43,9 +43,10 @@
     "eslint-plugin-react": "^7.6.1"
   },
   "devDependencies": {
+    "babel-jest": "^22.2.0",
     "eslint": "^4.16.0",
     "is-plain-obj": "^1.1.0",
-    "jest": "^22.1.4"
+    "jest": "^22.2.1"
   },
   "peerDependencies": {
     "eslint": "^4.16.0"
