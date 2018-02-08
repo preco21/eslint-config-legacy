@@ -352,10 +352,14 @@ module.exports = {
       // Directives
       {blankLine: 'always', prev: 'directive', next: '*'},
       {blankLine: 'any', prev: 'directive', next: 'directive'},
+      // Multiline expressions
+      {blankLine: 'always', prev: '*', next: 'multiline-expression'},
+      {blankLine: 'any', prev: ['const', 'let', 'var', 'expression'], next: 'multiline-expression'},
+      {blankLine: 'always', prev: 'multiline-expression', next: '*'},
       // Multiline block-like
-      {blankLine: 'always', prev: '*', next: 'multiline-block-like'},
-      {blankLine: 'always', prev: 'multiline-block-like', next: '*'},
-      {blankLine: 'any', prev: ['const', 'let', 'var'], next: 'multiline-block-like'},
+      {blankLine: 'always', prev: '*', next: 'block-like'},
+      {blankLine: 'any', prev: ['const', 'let', 'var'], next: 'block-like'},
+      {blankLine: 'always', prev: 'block-like', next: '*'},
       // Switches
       {blankLine: 'never', prev: 'case', next: ['case', 'default']},
     ],
