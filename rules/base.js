@@ -392,7 +392,7 @@ module.exports = {
     'no-confusing-arrow': 'off',
     'no-const-assign': 'error',
     'no-dupe-class-members': 'error',
-    'no-duplicate-imports': 'error',
+    'no-duplicate-imports': ['error', {includeExports: true}],
     'no-new-symbol': 'error',
     'no-restricted-imports': 'off',
     'no-this-before-super': 'error',
