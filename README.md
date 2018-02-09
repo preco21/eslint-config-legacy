@@ -37,9 +37,9 @@ Or if you prefer `package.json`:
 
 ## Available configs
 
-Every config has [ECMAScript modules][esm] support and `esnext` features are enabled by default.
+Every config provided by this sharable config have [ECMAScript modules][esm] support and `esnext` features by default.
 
-* `prev`: The basic config for common JavaScript projects. This config is assuming you are in `node` environment (`nodejs`, `webpack`, ...).
+* `prev`: The basic config for common JavaScript projects. This config is assuming you are in `node` environment (e.g. `nodejs`, `webpack`, ...).
 * `prev/react`: The config for React projects with support for React and JSX.
 * `prev/native`: The config for ReactNative projects with support for React and JSX.
 
@@ -56,14 +56,14 @@ env:
 
 ### Globals
 
-If you need global variable for some reasons (refering external library), then you can add them to your config:
+Whenever you need to use global variables for some case (e.g. refering external library), you can add them to your config to let ESLint recognize that variables are populated in `global`:
 
 ```yaml
 globals:
   $: false
 ```
 
-Which receives variable name with `Boolean` value as a property, that value controls overwriting. `true` to allow the variable to be overwritten or `false` to disallow overwriting.
+You can specify the variable name with `boolean` value as a property of `globals` object in the config. Specifying `true` will allow the variable to be overwritten in the code or `false` to disallow overwriting.
 
 ### Using `script` source type
 
@@ -76,7 +76,7 @@ parserOptions:
 
 ### Using ES5 instead of ES2015+
 
-I don't recommend fallback to ES5, add next to config will change environment to ES5:
+This is not generally recommended, you can fallback to ES5 by adding next to your config if you need. This will change environment to ES5:
 
 ```yaml
 env:
@@ -85,11 +85,13 @@ parserOptions:
   ecmaVersion: 5
 ```
 
-### Config composition
+**Note:** However, ESLint might still show you error or warning since this sharable config is created in mind that you are in ES2015+ environment. In this case, you can safely disable the rule manually.
 
-Basically, every top-level config described above enforces to use [ECMAScript modules][esm] and `esnext` features via `Babel`.
+### Composing configs
 
-If you don't want to those features, then you can pick what you needs from `rules` directory:
+By default, the top-level configs described above enforce you to use [ECMAScript modules][esm] and `esnext` features via `Babel`.
+
+If you don't want to be enforced by this rule to use them, you can choose what you just need and compose your own rules from `rules` directory:
 
 `.eslintrc.yml`:
 
@@ -114,7 +116,7 @@ extends:
 
 ### Electron
 
-If you are on [Electron](electron.atom.io) environment, you may need to add `electron` module to `core-modules`:
+If you are on [Electron](electron.atom.io) environment, you may need to add `electron` module to `core-modules`. So that [`eslint-import-plugin`][eslint-import-plugin] can consider the `electron` module as a `core` module like `path`:
 
 ```yaml
 settings:
@@ -125,7 +127,7 @@ You can find more details about ESLint configuration [here](http://eslint.org/do
 
 ## Badge
 
-If you loved this config, consider to add next fancy `cyan` badge to your project!
+If you loved this config, please consider to add this fancy badge to your awesome project!
 
 > [![Code Style Prev](https://img.shields.io/badge/code%20style-prev-32c8fc.svg)](https://github.com/preco21/eslint-config-prev)
 
@@ -138,3 +140,4 @@ If you loved this config, consider to add next fancy `cyan` badge to your projec
 [MIT](http://preco.mit-license.org/)
 
 [esm]: http://2ality.com/2014/09/es6-modules-final.html
+[eslint-import-plugin]: https://github.com/benmosher/eslint-plugin-import
