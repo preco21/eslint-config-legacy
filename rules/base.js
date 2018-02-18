@@ -244,12 +244,14 @@ module.exports = {
     'array-bracket-newline': ['error', 'consistent'],
     'array-bracket-spacing': 'error',
     // TODO: Enable when `consistent` option is available?
-    // 'array-element-newline': ['error', {multiline: true}],
+    // Original: 'array-element-newline': ['error', {multiline: true}],
+    'array-element-newline': 'off',
     'block-spacing': 'error',
     'brace-style': ['error', '1tbs', {allowSingleLine: true}],
     'camelcase': ['error', {properties: 'never'}],
     // TODO: Enable when false positive issue has been fixed
-    // 'capitalized-comments': ['error', 'always', {ignoreInlineComments: true}],
+    // Original: 'capitalized-comments': ['error', 'always', {ignoreInlineComments: true}],
+    'capitalized-comments': 'off',
     'comma-dangle': [
       'error',
       {

@@ -24,7 +24,8 @@ module.exports = {
     'import/default': 'error',
     // TODO: Enable when issue has been fixed:
     // https://github.com/benmosher/eslint-plugin-import/issues/656
-    // 'import/namespace': ['error', {allowComputed: true}],
+    // Original: 'import/namespace': ['error', {allowComputed: true}],
+    'import/namespace': 'off',
     'import/no-restricted-paths': 'off',
     'import/no-absolute-path': 'error',
     'import/no-dynamic-require': 'error',
@@ -37,14 +38,16 @@ module.exports = {
     'import/no-named-as-default-member': 'error',
     // TODO: Enable when the rule goes more stable
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md
-    // 'import/no-deprecated': 'error',
+    // Original: 'import/no-deprecated': 'error',
+    'import/no-deprecated': 'off',
     'import/no-extraneous-dependencies': 'error',
     'import/no-mutable-exports': 'error',
 
     // Module systems
     // TODO: Disable rule due to Unambiguous JavaScript Grammar is rejected from tc39 and moved to inactive proposals
     // https://github.com/tc39/proposals/blob/eb23a429df79d13e0d8fff89dc38a53f5085fa1b/inactive-proposals.md
-    // 'import/unambiguous': 'error',
+    // Original: 'import/unambiguous': 'error',
+    'import/unambiguous': 'off',
     'import/no-commonjs': 'off',
     'import/no-amd': 'error',
     'import/no-nodejs-modules': 'off',

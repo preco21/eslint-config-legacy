@@ -5,7 +5,15 @@
   "author": "Plusb Preco <plusb21@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "test": "eslint . && jest"
+    "precommit": "npm-run-all lint-staged test check-eslint-rules",
+    "validate": "npm-run-all lint test check-eslint-rules",
+    "test": "jest",
+    "lint": "eslint .",
+    "lint-staged": "lint-staged",
+    "check-eslint-rules": "npm-run-all --parallel check-eslint-rules:*",
+    "check-eslint-rules:main": "eslint-find-rules --unused --deprecated index.js",
+    "check-eslint-rules:react": "eslint-find-rules --unused --deprecated react.js",
+    "check-eslint-rules:native": "eslint-find-rules --unused --deprecated native.js"
   },
   "engines": {
     "node": ">= 4"
@@ -45,10 +53,20 @@
   "devDependencies": {
     "babel-jest": "^22.2.2",
     "eslint": "^4.17.0",
+    "eslint-find-rules": "^3.2.0",
+    "husky": "^0.14.3",
     "is-plain-obj": "^1.1.0",
-    "jest": "^22.3.0"
+    "jest": "^22.3.0",
+    "lint-staged": "^6.1.1",
+    "npm-run-all": "^4.1.2"
   },
   "peerDependencies": {
     "eslint": "^4.17.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
