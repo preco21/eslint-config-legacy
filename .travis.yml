@@ -4,6 +4,7 @@ node_js:
   - 9
   - 8
   - 6
+script: yarn run validate
 cache:
   yarn: true
   directories:
