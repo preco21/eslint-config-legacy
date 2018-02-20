@@ -1,9 +1,7 @@
 'use strict';
 
 module.exports = {
-  plugins: [
-    'react',
-  ],
+  plugins: ['react'],
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
@@ -76,7 +74,7 @@ module.exports = {
     'react/jsx-indent': ['error', 2],
     'react/jsx-indent-props': ['error', 2],
     'react/jsx-key': 'error',
-    'react/jsx-max-props-per-line': ['error', {maximum: 2}],
+    'react/jsx-max-props-per-line': ['error', {when: 'multiline'}],
     'react/jsx-no-bind': ['error', {allowArrowFunctions: true}],
     'react/jsx-no-comment-textnodes': 'error',
     'react/jsx-no-duplicate-props': ['error', {ignoreCase: true}],
