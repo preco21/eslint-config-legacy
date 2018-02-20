@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-prev",
-  "version": "7.0.0-beta.4",
+  "version": "7.0.0-beta.5",
   "description": "ESLint shareable config for ES2015+",
   "author": "Plusb Preco <plusb21@gmail.com>",
   "main": "index.js",
@@ -46,8 +46,10 @@
   ],
   "dependencies": {
     "babel-eslint": "^8.2.1",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-babel": "^4.1.2",
     "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.6.1"
   },
   "devDependencies": {
@@ -58,10 +60,12 @@
     "is-plain-obj": "^1.1.0",
     "jest": "^22.3.0",
     "lint-staged": "^6.1.1",
-    "npm-run-all": "^4.1.2"
+    "npm-run-all": "^4.1.2",
+    "prettier": "1.10.2"
   },
   "peerDependencies": {
-    "eslint": "^4.18.0"
+    "eslint": "^4.18.0",
+    "prettier": "1.10.2"
   },
   "lint-staged": {
     "*.js": [
