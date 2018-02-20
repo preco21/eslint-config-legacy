@@ -6,4 +6,16 @@ module.exports = {
     './rules/esnext',
     './rules/import',
   ].map(require.resolve),
+  plugins: ['prettier'],
+  rules: {
+    'prettier/prettier': [
+      'error',
+      {
+        singleQuote: true,
+        trailingComma: 'all',
+        bracketSpacing: false,
+        arrowParens: 'always',
+      },
+    ],
+  },
 };

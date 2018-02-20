@@ -1,3 +1,6 @@
 extends: ./index.js
 parserOptions:
   sourceType: script
+rules:
+  quote-props: off
+  prettier/prettier: off
