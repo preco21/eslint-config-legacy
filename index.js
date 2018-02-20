@@ -2,10 +2,13 @@
 
 module.exports = {
   extends: [
-    './rules/base',
-    './rules/esnext',
-    './rules/import',
-  ].map(require.resolve),
+    ...[
+      './rules/base',
+      './rules/esnext',
+      './rules/import',
+    ].map(require.resolve),
+    'prettier',
+  ],
   plugins: ['prettier'],
   rules: {
     'prettier/prettier': [
