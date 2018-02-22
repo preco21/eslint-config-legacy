@@ -22,7 +22,7 @@ module.exports = {
     'no-console': 'warn',
     'no-constant-condition': ['error', {checkLoops: false}],
     'no-control-regex': 'error',
-    'no-debugger': 'warn',
+    'no-debugger': 'error',
     'no-dupe-args': 'error',
     'no-dupe-keys': 'error',
     'no-duplicate-case': 'error',
