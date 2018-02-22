@@ -2,10 +2,7 @@
 
 module.exports = {
   extends: [
-    ...[
-      './index',
-      './rules/react',
-    ].map(require.resolve),
-    'prettier/react',
-  ],
+    './index',
+    './rules/react',
+  ].map(require.resolve),
 };
