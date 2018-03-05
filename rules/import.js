@@ -73,5 +73,6 @@ module.exports = {
         allowObject: true,
       },
     ],
+    'import/group-exports': 'off',
   },
 };
