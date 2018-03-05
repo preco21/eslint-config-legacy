@@ -45,23 +45,23 @@
     "styleguide"
   ],
   "dependencies": {
-    "babel-eslint": "^8.2.1",
+    "babel-eslint": "^8.2.2",
     "eslint-plugin-babel": "^4.1.2",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-react": "^7.6.1"
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-react": "^7.7.0"
   },
   "devDependencies": {
-    "babel-jest": "^22.2.2",
-    "eslint": "^4.18.0",
-    "eslint-find-rules": "^3.2.0",
+    "babel-jest": "^22.4.1",
+    "eslint": "^4.18.2",
+    "eslint-find-rules": "^3.2.1",
     "husky": "^0.14.3",
     "is-plain-obj": "^1.1.0",
-    "jest": "^22.3.0",
+    "jest": "^22.4.2",
     "lint-staged": "^7.0.0",
     "npm-run-all": "^4.1.2"
   },
   "peerDependencies": {
-    "eslint": "^4.18.0"
+    "eslint": "^4.18.2"
   },
   "lint-staged": {
     "*.js": [
