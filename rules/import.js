@@ -64,6 +64,7 @@ module.exports = {
     'import/max-dependencies': 'off',
     'import/no-unassigned-import': 'off',
     'import/no-named-default': 'error',
+    'import/no-default-export': 'off',
     'import/no-anonymous-default-export': [
       'error',
       {
