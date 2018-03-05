@@ -74,6 +74,7 @@ module.exports = {
     'react/jsx-indent': ['error', 2],
     'react/jsx-indent-props': ['error', 2],
     'react/jsx-key': 'error',
+    'react/jsx-max-depth': 'off',
     'react/jsx-max-props-per-line': ['error', {when: 'multiline'}],
     'react/jsx-no-bind': ['error', {allowArrowFunctions: true}],
     'react/jsx-no-comment-textnodes': 'error',
