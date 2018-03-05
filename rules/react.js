@@ -25,7 +25,7 @@ module.exports = {
     // TODO: Consider to add new options
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
     'react/forbid-prop-types': 'error',
-    'react/forbid-foreign-prop-types': 'error',
+    'react/forbid-foreign-prop-types': ['error', {allowInPropTypes: true}],
     'react/no-access-state-in-setstate': 'error',
     'react/no-array-index-key': 'error',
     'react/no-children-prop': 'error',
