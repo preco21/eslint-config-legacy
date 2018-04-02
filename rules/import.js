@@ -32,6 +32,7 @@ module.exports = {
     'import/no-internal-modules': 'off',
     'import/no-webpack-loader-syntax': 'error',
     'import/no-self-import': 'error',
+    'import/no-cycle': 'error',
 
     // Helpful warnings
     'import/export': 'error',
