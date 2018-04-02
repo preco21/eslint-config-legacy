@@ -22,10 +22,7 @@ module.exports = {
     'import/no-unresolved': ['error', {commonjs: true}],
     'import/named': 'error',
     'import/default': 'error',
-    // TODO: Enable when issue has been fixed:
-    // https://github.com/benmosher/eslint-plugin-import/issues/656
-    // Original: 'import/namespace': ['error', {allowComputed: true}],
-    'import/namespace': 'off',
+    'import/namespace': ['error', {allowComputed: true}],
     'import/no-restricted-paths': 'off',
     'import/no-absolute-path': 'error',
     'import/no-dynamic-require': 'error',
