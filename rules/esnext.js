@@ -14,8 +14,8 @@ module.exports = {
     'new-cap': 'off',
     'object-curly-spacing': 'off',
     'no-invalid-this': 'off',
-    'semi': 'off',
     'quotes': 'off',
+    'semi': 'off',
 
     // Enhanced eslint rules
     'babel/new-cap': 'error',
