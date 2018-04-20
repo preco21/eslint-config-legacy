@@ -22,7 +22,7 @@ module.exports = {
     'react/forbid-component-props': 'off',
     'react/forbid-dom-props': 'off',
     'react/forbid-elements': 'off',
-    // TODO: Consider to add new options
+    // TODO: Need to be defined whether to add new options
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
     'react/forbid-prop-types': 'error',
     'react/forbid-foreign-prop-types': ['error', {allowInPropTypes: true}],

@@ -243,7 +243,7 @@ module.exports = {
     // Stylistic issues
     'array-bracket-newline': ['error', 'consistent'],
     'array-bracket-spacing': 'error',
-    // TODO: Enable when `consistent` option is available?
+    // TODO: Enable when `consistent` option is available in place
     // Original: 'array-element-newline': ['error', {multiline: true}],
     'array-element-newline': 'off',
     'block-spacing': 'error',
@@ -293,7 +293,7 @@ module.exports = {
     'id-blacklist': 'off',
     'id-length': 'off',
     'id-match': 'off',
-    // TODO: Need to consider more about this rule
+    // TODO: Need to be defined whether to enable this rule
     'implicit-arrow-linebreak': 'off',
     'indent': ['error', 2, {SwitchCase: 1}],
     'jsx-quotes': 'off',
@@ -325,7 +325,7 @@ module.exports = {
     'no-multi-assign': 'error',
     'no-multiple-empty-lines': ['error', {max: 1, maxBOF: 0}],
     'no-negated-condition': 'error',
-    // TODO: Consider about disabling this rule again
+    // TODO: Need to be defined whether to disable this rule
     // Use separated function or switch-case
     // http://stackoverflow.com/questions/32289340/alternative-to-nested-ternary-operator-in-js
     'no-nested-ternary': 'error',
