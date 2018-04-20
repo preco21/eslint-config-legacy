@@ -47,7 +47,9 @@ module.exports = {
     // https://github.com/tc39/proposals/blob/eb23a429df79d13e0d8fff89dc38a53f5085fa1b/inactive-proposals.md
     // Original: 'import/unambiguous': 'error',
     'import/unambiguous': 'off',
-    'import/no-commonjs': ['error', {allowRequire: true, allowPrimitiveModules: true}],
+    // TODO: Enable this rule when it comes to move on ESM entirely
+    // Original: 'import/no-commonjs': ['error', {allowRequire: true, allowPrimitiveModules: true}],
+    'import/no-commonjs': 'off',
     'import/no-amd': 'error',
     'import/no-nodejs-modules': 'off',
 

@@ -4,4 +4,3 @@ parserOptions:
   sourceType: script
 rules:
   quote-props: off
-  import/no-commonjs: off
