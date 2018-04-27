@@ -16,6 +16,7 @@ module.exports = {
     'no-invalid-this': 'off',
     'quotes': 'off',
     'semi': 'off',
+    'no-unused-expressions': 'off',
 
     // Enhanced eslint rules
     'babel/new-cap': 'error',
@@ -23,5 +24,6 @@ module.exports = {
     'babel/no-invalid-this': 'error',
     'babel/quotes': ['error', 'single'],
     'babel/semi': 'error',
+    'babel/no-unused-expressions': 'error',
   },
 };
