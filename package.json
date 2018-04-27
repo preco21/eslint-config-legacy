@@ -16,7 +16,7 @@
     "check-eslint-rules:native": "eslint-find-rules --unused --deprecated native.js"
   },
   "engines": {
-    "node": ">= 4"
+    "node": ">=4"
   },
   "license": "MIT",
   "homepage": "https://github.com/preco21/eslint-config-prev#readme",
