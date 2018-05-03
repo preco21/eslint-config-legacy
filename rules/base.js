@@ -309,7 +309,7 @@ module.exports = {
     'max-nested-callbacks': ['warn', 4],
     'max-params': ['warn', 5],
     'max-statements': 'off',
-    'max-statements-per-line': 'warn',
+    'max-statements-per-line': 'error',
     'multiline-comment-style': 'off',
     'multiline-ternary': ['error', 'always-multiline'],
     'new-cap': 'error',
