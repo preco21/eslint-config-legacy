@@ -31,6 +31,7 @@ module.exports = {
     'import/no-self-import': 'error',
     'import/no-cycle': 'error',
     'import/no-useless-path-segments': 'error',
+    'import/no-relative-parent-imports': 'off',
 
     // Helpful warnings
     'import/export': 'error',
