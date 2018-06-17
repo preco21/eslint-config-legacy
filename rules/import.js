@@ -30,6 +30,7 @@ module.exports = {
     'import/no-webpack-loader-syntax': 'error',
     'import/no-self-import': 'error',
     'import/no-cycle': 'error',
+    'import/no-useless-path-segments': 'error',
 
     // Helpful warnings
     'import/export': 'error',
@@ -64,7 +65,6 @@ module.exports = {
     'import/prefer-default-export': 'error',
     'import/max-dependencies': 'off',
     'import/no-unassigned-import': 'off',
-    'import/no-useless-path-segments': 'error',
     'import/no-named-default': 'error',
     'import/no-default-export': 'off',
     'import/no-anonymous-default-export': [
