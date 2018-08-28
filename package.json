@@ -45,7 +45,7 @@
     "styleguide"
   ],
   "dependencies": {
-    "babel-eslint": "^8.2.3",
+    "babel-eslint": "^9.0.0",
     "eslint-plugin-babel": "^5.1.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-react": "^7.9.1"
