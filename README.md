@@ -7,8 +7,6 @@
 
 > ESLint shareable config for ES2015+
 
-**Translations:** [Korean](./README-ko.md)
-
 ## Install
 
 ```bash
@@ -39,9 +37,9 @@ Or if you prefer `package.json`:
 
 Every config provided by this sharable config have [ECMAScript modules][esm] support and `esnext` features by default.
 
-* `prev`: The basic config for common JavaScript projects. This config is assuming you are in `node` environment (e.g. `nodejs`, `webpack`, ...).
-* `prev/react`: The config for React projects with support for React and JSX.
-* `prev/native`: The config for ReactNative projects with support for React and JSX.
+- `prev`: The basic config for common JavaScript projects. This config is assuming you are in `node` environment (e.g. `nodejs`, `webpack`, ...).
+- `prev/react`: The config for React projects with support for React and JSX.
+- `prev/native`: The config for ReactNative projects with support for React and JSX.
 
 If you are on _browser_ environment, you may need to add `browser` option to `env` field:
 
@@ -50,7 +48,7 @@ env:
   browser: true
 ```
 
-* [Why not `prev/web`?](https://github.com/airbnb/javascript/issues/1002)
+- [Why not `prev/web`?](https://github.com/airbnb/javascript/issues/1002)
 
 ## Advanced usage
 
@@ -106,10 +104,7 @@ extends:
 ```json
 {
   "eslintConfig": {
-    "extends": [
-      "prev/rules/base",
-      "prev/rules/react"
-    ]
+    "extends": ["prev/rules/base", "prev/rules/react"]
   }
 }
 ```
