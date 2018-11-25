@@ -1,7 +1,9 @@
 'use strict';
 
 module.exports = {
-  plugins: ['react'],
+  plugins: [
+    'react',
+  ],
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
