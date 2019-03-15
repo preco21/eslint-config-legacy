@@ -31,18 +31,14 @@
     "native.js"
   ],
   "keywords": [
-    "codestyle",
-    "config",
-    "ecmascript 6",
-    "es2015",
-    "es6",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "styleguide",
     "eslint",
-    "eslintconfig",
-    "esnext",
-    "fancy",
-    "futuristic",
-    "prev",
-    "styleguide"
+    "¯\\_(ツ)_/¯"
   ],
   "dependencies": {
     "babel-eslint": "^10.0.1",
