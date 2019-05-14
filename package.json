@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-prev",
+  "name": "eslint-config",
   "version": "7.0.0",
-  "description": "ESLint shareable config for ES2015+",
+  "description": "ESLint shareable config for @preco21",
   "author": "Plusb Preco <plusb21@gmail.com>",
   "main": "index.js",
   "scripts": {
