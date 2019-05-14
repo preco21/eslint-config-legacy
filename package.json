@@ -65,5 +65,11 @@
     "rules": {
       "quote-props": "off"
     }
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "always"
   }
 }
