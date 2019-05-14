@@ -5,18 +5,16 @@
   "author": "Plusb Preco <plusb21@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "precommit": "npm-run-all lint-staged test check-eslint-rules",
     "validate": "npm-run-all lint test check-eslint-rules",
     "test": "jest",
     "lint": "eslint .",
-    "lint-staged": "lint-staged",
     "check-eslint-rules": "npm-run-all --parallel check-eslint-rules:*",
     "check-eslint-rules:main": "eslint-find-rules --unused --deprecated index.js",
     "check-eslint-rules:react": "eslint-find-rules --unused --deprecated react.js",
     "check-eslint-rules:native": "eslint-find-rules --unused --deprecated native.js"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=10"
   },
   "license": "MIT",
   "homepage": "https://github.com/preco21/eslint-config-prev#readme",
@@ -38,6 +36,7 @@
     "linter",
     "styleguide",
     "eslint",
+    "preco",
     "¯\\_(ツ)_/¯"
   ],
   "dependencies": {
@@ -58,11 +57,5 @@
   },
   "peerDependencies": {
     "eslint": "^5.16.0"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ]
   }
 }
