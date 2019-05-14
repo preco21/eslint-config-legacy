@@ -1,13 +1,8 @@
 'use strict';
 
+// prettier-ignore
 module.exports = {
-  plugins: [
-    'import',
-  ],
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
-  },
+  plugins: ['import'],
   settings: {
     'import/resolver': {
       node: {
@@ -18,7 +13,7 @@ module.exports = {
     'import/ignore': ['node_modules'],
   },
   rules: {
-    // Static analysis
+    // static analysis
     'import/no-unresolved': ['error', {commonjs: true}],
     'import/named': 'error',
     'import/default': 'error',
@@ -33,7 +28,7 @@ module.exports = {
     'import/no-useless-path-segments': 'error',
     'import/no-relative-parent-imports': 'off',
 
-    // Helpful warnings
+    // helpful warnings
     'import/export': 'error',
     'import/no-named-as-default': 'error',
     'import/no-named-as-default-member': 'error',
@@ -44,12 +39,11 @@ module.exports = {
     'import/no-extraneous-dependencies': 'error',
     'import/no-mutable-exports': 'error',
 
-    // Module systems
+    // module systems
     // TODO: Disabling this rule due to Unambiguous JavaScript Grammar is rejected from tc39 and moved to inactive proposals
     // https://github.com/tc39/proposals/blob/eb23a429df79d13e0d8fff89dc38a53f5085fa1b/inactive-proposals.md
     // Original: 'import/unambiguous': 'error',
     'import/unambiguous': 'off',
-    // TODO: Enable this rule when it moves on ESM entirely
     // Original: 'import/no-commonjs': ['error', {allowRequire: true, allowPrimitiveModules: true}],
     'import/no-commonjs': 'off',
     'import/no-amd': 'error',

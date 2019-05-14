@@ -1,5 +1,6 @@
 'use strict';
 
+// prettier-ignore
 module.exports = {
   extends: [
     './index',

@@ -2,20 +2,14 @@
 
 module.exports = {
   parser: 'babel-eslint',
-  plugins: [
-    'babel',
-  ],
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
-  },
+  plugins: ['babel'],
   rules: {
     // Disable original eslint rules
     'new-cap': 'off',
     'object-curly-spacing': 'off',
     'no-invalid-this': 'off',
-    'quotes': 'off',
-    'semi': 'off',
+    quotes: 'off',
+    semi: 'off',
     'no-unused-expressions': 'off',
 
     // Enhanced eslint rules

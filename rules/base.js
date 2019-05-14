@@ -1,19 +1,9 @@
 'use strict';
 
+// prettier-ignore
 module.exports = {
-  env: {
-    es6: true,
-    node: true,
-  },
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-    },
-  },
   rules: {
-    // Possible errors
+    // possible errors
     'for-direction': 'error',
     'getter-return': 'error',
     'no-await-in-loop': 'error',
@@ -203,14 +193,14 @@ module.exports = {
     'no-warning-comments': 'warn',
     'no-with': 'error',
     'prefer-promise-reject-errors': 'error',
-    'radix': ['error', 'as-needed'],
+    radix: ['error', 'as-needed'],
     'require-await': 'error',
     'vars-on-top': 'error',
     'wrap-iife': ['error', 'inside', {functionPrototypeMethods: true}],
-    'yoda': 'error',
+    yoda: 'error',
 
     // Strict mode
-    'strict': 'error',
+    strict: 'error',
 
     // Variables
     'init-declarations': 'error',
@@ -218,7 +208,13 @@ module.exports = {
     'no-delete-var': 'error',
     'no-label-var': 'error',
     // Use `Number` property functions instead
-    'no-restricted-globals': ['error', 'isFinite', 'isNaN', 'parseInt', 'parseFloat'],
+    'no-restricted-globals': [
+      'error',
+      'isFinite',
+      'isNaN',
+      'parseInt',
+      'parseFloat',
+    ],
     'no-shadow-restricted-names': 'error',
     'no-shadow': 'error',
     'no-undef-init': 'error',
@@ -248,7 +244,7 @@ module.exports = {
     'array-element-newline': 'off',
     'block-spacing': 'error',
     'brace-style': ['error', '1tbs', {allowSingleLine: true}],
-    'camelcase': ['error', {properties: 'never'}],
+    camelcase: ['error', {properties: 'never'}],
     // TODO: Enable when false positive issue has been fixed
     // Original: 'capitalized-comments': ['error', 'always', {ignoreInlineComments: true}],
     'capitalized-comments': 'off',
@@ -295,14 +291,18 @@ module.exports = {
     'id-match': 'off',
     // TODO: Need to be defined whether to enable this rule
     'implicit-arrow-linebreak': 'off',
-    'indent': ['error', 2, {SwitchCase: 1}],
+    indent: ['error', 2, {SwitchCase: 1}],
     'jsx-quotes': 'off',
     'key-spacing': 'error',
     'line-comment-position': 'off',
     'keyword-spacing': 'error',
     'linebreak-style': 'error',
     'lines-around-comment': 'off',
-    'lines-between-class-members': ['error', 'always', {exceptAfterSingleLine: true}],
+    'lines-between-class-members': [
+      'error',
+      'always',
+      {exceptAfterSingleLine: true},
+    ],
     'max-depth': 'warn',
     'max-len': 'off',
     'max-lines': 'off',
@@ -333,11 +333,16 @@ module.exports = {
     'no-plusplus': 'off',
     // Use `for-of` with `Object.keys()` instead of `for-in`
     // https://hacks.mozilla.org/2015/04/es6-in-depth-iterators-and-the-for-of-loop/
-    'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
+    'no-restricted-syntax': [
+      'error',
+      'ForInStatement',
+      'LabeledStatement',
+      'WithStatement',
+    ],
     'no-tabs': 'error',
     'no-ternary': 'off',
     'no-trailing-spaces': ['error', {skipBlankLines: true}],
-    'no-underscore-dangle': ['error', {allowAfterThis: true, allowAfterSuper: true}],
+    // 'no-underscore-dangle': ['error', {allowAfterThis: true, allowAfterSuper: true}],
     'no-unneeded-ternary': ['error', {defaultAssignment: false}],
     'no-whitespace-before-property': 'error',
     'nonblock-statement-body-position': 'off',
@@ -356,7 +361,11 @@ module.exports = {
       {blankLine: 'any', prev: 'directive', next: 'directive'},
       // Multiline expressions
       {blankLine: 'always', prev: '*', next: 'multiline-expression'},
-      {blankLine: 'any', prev: ['const', 'let', 'var', 'expression'], next: 'multiline-expression'},
+      {
+        blankLine: 'any',
+        prev: ['const', 'let', 'var', 'expression'],
+        next: 'multiline-expression',
+      },
       {blankLine: 'always', prev: 'multiline-expression', next: '*'},
       // Multiline block-like
       {blankLine: 'always', prev: '*', next: 'block-like'},

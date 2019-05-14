@@ -1,12 +1,9 @@
 'use strict';
 
+// prettier-ignore
 module.exports = {
-  plugins: [
-    'react',
-  ],
+  plugins: ['react'],
   parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },
