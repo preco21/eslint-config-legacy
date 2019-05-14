@@ -1,11 +1,13 @@
-# [![prev](https://rawgit.com/preco21/eslint-config-prev/master/media/logo.png)](https://github.com/preco21/eslint-config-prev)
+# [![@preco21/eslint-config](https://rawgit.com/preco21/eslint-config/master/media/logo.png)](https://github.com/preco21/eslint-config)
 
-[![Code Style Prev](https://img.shields.io/badge/code%20style-prev-32c8fc.svg)](https://github.com/preco21/eslint-config-prev)
-[![NPM Version](https://img.shields.io/npm/v/eslint-config-prev.svg)](https://www.npmjs.com/package/eslint-config-prev)
-[![Build Status](https://travis-ci.org/preco21/eslint-config-prev.svg?branch=master)](https://travis-ci.org/preco21/eslint-config-prev)
-[![Dependency Status](https://dependencyci.com/github/preco21/eslint-config-prev/badge)](https://dependencyci.com/github/preco21/eslint-config-prev)
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
-> ESLint shareable config for ES2015+
+[![NPM Version](https://img.shields.io/npm/v/@preco21/eslint-config.svg)](https://www.npmjs.com/package/@preco21/eslint-config)
+[![Build Status](https://travis-ci.org/preco21/eslint-config.svg?branch=master)](https://travis-ci.org/preco21/eslint-config)
+
+> ESLint shareable config for `@preco21`
+
+Extends [JavaScript Standard Style](https://standardjs.com/) to his personal preferences.
 
 ## Install
 
@@ -111,7 +113,7 @@ extends:
 
 ### Electron
 
-If you are on [Electron](electron.atom.io) environment, you may need to add `electron` module to `core-modules`. So that [`eslint-import-plugin`][eslint-import-plugin] can consider the `electron` module as a `core` module like `path`:
+If you are on [Electron](https://electronjs.org/) environment, you may need to add `electron` module to `core-modules`. So that [`eslint-import-plugin`][eslint-import-plugin] can consider the `electron` module as a `core` module like `path`:
 
 ```yaml
 settings:
@@ -119,16 +121,6 @@ settings:
 ```
 
 You can find more details about ESLint configuration [here](http://eslint.org/docs/user-guide/configuring).
-
-## Badge
-
-If you loved this config, please consider to add this fancy badge to your awesome project!
-
-> [![Code Style Prev](https://img.shields.io/badge/code%20style-prev-32c8fc.svg)](https://github.com/preco21/eslint-config-prev)
-
-```markdown
-[![Code Style Prev](https://img.shields.io/badge/code%20style-prev-32c8fc.svg)](https://github.com/preco21/eslint-config-prev)
-```
 
 ## License
 
