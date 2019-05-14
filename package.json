@@ -55,5 +55,15 @@
   },
   "peerDependencies": {
     "eslint": "^5.16.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "./index.js",
+    "parserOptions": {
+      "sourceType": "script"
+    },
+    "rules": {
+      "quote-props": "off"
+    }
   }
 }
