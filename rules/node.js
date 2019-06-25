@@ -5,6 +5,7 @@ module.exports = {
   plugins: ['node'],
   rules: {
     // possible errors
+    // note: some of rules have been disabled because of duplicated behaviors covered by `eslint-plugin-import`.
     'node/no-extraneous-import': 'off',
     'node/no-extraneous-require': 'off',
     'node/no-missing-import': 'off',
