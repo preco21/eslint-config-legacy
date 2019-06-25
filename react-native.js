@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 // prettier-ignore
 module.exports = {
@@ -32,4 +32,4 @@ module.exports = {
     setTimeout: false,
     window: false,
   },
-};
+}
