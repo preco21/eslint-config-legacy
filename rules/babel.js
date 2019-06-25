@@ -1,23 +1,28 @@
-'use strict';
+'use strict'
 
+// prettier-ignore
 module.exports = {
   parser: 'babel-eslint',
   plugins: ['babel'],
   rules: {
-    // Disable original eslint rules
+    // disable original eslint rules
     'new-cap': 'off',
-    'object-curly-spacing': 'off',
+    'camelcase': 'off',
     'no-invalid-this': 'off',
-    quotes: 'off',
-    semi: 'off',
+    'object-curly-spacing': 'off',
+    'quotes': 'off',
+    'semi': 'off',
     'no-unused-expressions': 'off',
+    'valid-typeof': 'off',
 
-    // Enhanced eslint rules
-    'babel/new-cap': 'error',
-    'babel/object-curly-spacing': 'error',
+    // enhance eslint rules based on `base.js`
+    'babel/new-cap': ['error', { capIsNew: false }],
+    'babel/camelcase': ['off', { properties: 'never' }],
     'babel/no-invalid-this': 'error',
-    'babel/quotes': ['error', 'single'],
-    'babel/semi': 'error',
-    'babel/no-unused-expressions': 'error',
+    'babel/object-curly-spacing': ['error', 'always'],
+    'babel/quotes': ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
+    'babel/semi': ['error', 'never'],
+    'babel/no-unused-expressions': ['error', { allowShortCircuit: true, allowTernary: true, allowTaggedTemplates: true }],
+    'babel/valid-typeof': ['error', { requireStringLiterals: true }],
   },
-};
+}
