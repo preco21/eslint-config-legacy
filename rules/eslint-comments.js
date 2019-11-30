@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 // prettier-ignore
 module.exports = {
@@ -16,4 +16,4 @@ module.exports = {
     'eslint-comments/no-restricted-disable': 'off',
     'eslint-comments/no-use': 'off',
   },
-};
+}

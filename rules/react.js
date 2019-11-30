@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 // prettier-ignore
 module.exports = {
@@ -24,7 +24,7 @@ module.exports = {
     // TODO: Need to be defined whether to add new options
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
     'react/forbid-prop-types': 'error',
-    'react/forbid-foreign-prop-types': ['error', {allowInPropTypes: true}],
+    'react/forbid-foreign-prop-types': ['error', { allowInPropTypes: true }],
     'react/no-access-state-in-setstate': 'error',
     'react/no-array-index-key': 'error',
     'react/no-children-prop': 'error',
@@ -36,7 +36,7 @@ module.exports = {
     'react/no-direct-mutation-state': 'error',
     'react/no-find-dom-node': 'error',
     'react/no-is-mounted': 'error',
-    'react/no-multi-comp': ['error', {ignoreStateless: true}],
+    'react/no-multi-comp': ['error', { ignoreStateless: true }],
     'react/no-redundant-should-component-update': 'error',
     'react/no-render-return-value': 'error',
     'react/no-set-state': 'off',
@@ -52,7 +52,7 @@ module.exports = {
     'react/prefer-stateless-function': 'error',
     'react/prop-types': 'error',
     'react/react-in-jsx-scope': 'error',
-    'react/require-default-props': ['error', {forbidDefaultForRequired: true}],
+    'react/require-default-props': ['error', { forbidDefaultForRequired: true }],
     'react/require-optimization': 'off',
     'react/require-render-return': 'error',
     'react/self-closing-comp': 'error',
@@ -65,19 +65,19 @@ module.exports = {
     'react/jsx-boolean-value': 'error',
     'react/jsx-closing-bracket-location': 'error',
     'react/jsx-closing-tag-location': 'error',
-    'react/jsx-curly-spacing': ['error', {when: 'never', children: true}],
+    'react/jsx-curly-spacing': ['error', { when: 'never', children: true }],
     'react/jsx-equals-spacing': 'error',
-    'react/jsx-filename-extension': ['error', {extensions: ['.js', '.jsx']}],
+    'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
     'react/jsx-first-prop-new-line': 'error',
     'react/jsx-handler-names': 'error',
     'react/jsx-indent': ['error', 2],
     'react/jsx-indent-props': ['error', 2],
     'react/jsx-key': 'error',
     'react/jsx-max-depth': 'off',
-    'react/jsx-max-props-per-line': ['error', {when: 'multiline'}],
-    'react/jsx-no-bind': ['error', {allowArrowFunctions: true}],
+    'react/jsx-max-props-per-line': ['error', { when: 'multiline' }],
+    'react/jsx-no-bind': ['error', { allowArrowFunctions: true }],
     'react/jsx-no-comment-textnodes': 'error',
-    'react/jsx-no-duplicate-props': ['error', {ignoreCase: true}],
+    'react/jsx-no-duplicate-props': ['error', { ignoreCase: true }],
     'react/jsx-no-literals': 'off',
     'react/jsx-no-target-blank': 'error',
     'react/jsx-no-undef': 'error',
@@ -94,7 +94,7 @@ module.exports = {
         reservedFirst: true,
       },
     ],
-    'react/jsx-tag-spacing': ['error', {beforeClosing: 'never'}],
+    'react/jsx-tag-spacing': ['error', { beforeClosing: 'never' }],
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
     'react/jsx-wrap-multilines': [
@@ -111,4 +111,4 @@ module.exports = {
     ],
     'react/jsx-child-element-spacing': 'off',
   },
-};
+}
