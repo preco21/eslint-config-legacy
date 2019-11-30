@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 // prettier-ignore
 module.exports = {
@@ -6,18 +6,18 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
     },
-    'import/extensions': ['.js', '.jsx'],
+    'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
     'import/ignore': ['node_modules'],
   },
   rules: {
     // static analysis
-    'import/no-unresolved': ['error', {commonjs: true}],
+    'import/no-unresolved': ['error', { commonjs: true }],
     'import/named': 'error',
     'import/default': 'error',
-    'import/namespace': ['error', {allowComputed: true}],
+    'import/namespace': ['error', { allowComputed: true }],
     'import/no-restricted-paths': 'off',
     'import/no-absolute-path': 'error',
     'import/no-dynamic-require': 'error',
@@ -54,8 +54,8 @@ module.exports = {
     'import/exports-last': 'off',
     'import/no-duplicates': 'error',
     'import/no-namespace': 'off',
-    'import/extensions': ['error', {js: 'never', jsx: 'never'}],
-    'import/order': ['error', {'newlines-between': 'never'}],
+    'import/extensions': ['error', { js: 'never', jsx: 'never' }],
+    'import/order': ['error', { 'newlines-between': 'never' }],
     'import/newline-after-import': 'error',
     // https://humanwhocodes.com/blog/2019/01/stop-using-default-exports-javascript-module/
     'import/prefer-default-export': 'off',
@@ -74,4 +74,4 @@ module.exports = {
     ],
     'import/group-exports': 'off',
   },
-};
+}
