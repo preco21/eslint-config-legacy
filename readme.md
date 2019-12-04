@@ -12,7 +12,7 @@ Extends [JavaScript Standard Style](https://standardjs.com/) to his personal pre
 ## Install
 
 ```bash
-$ npm install --save-dev eslint eslint-config-prev
+$ npm install --save-dev eslint @preco21/eslint-config
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ Add `extends` field to your ESLint config (if you haven't created, create one):
 `.eslintrc.yml`:
 
 ```yaml
-extends: prev
+extends: @preco21/eslint-config
 ```
 
 Or if you prefer `package.json`:
@@ -30,7 +30,7 @@ Or if you prefer `package.json`:
 ```json
 {
   "eslintConfig": {
-    "extends": "prev"
+    "extends": "@preco21/eslint-config"
   }
 }
 ```
@@ -39,9 +39,9 @@ Or if you prefer `package.json`:
 
 Every config provided by this sharable config have [ECMAScript modules][esm] support and `esnext` features by default.
 
-- `prev`: The basic config for common JavaScript projects. This config is assuming you are in `node` environment (e.g. `nodejs`, `webpack`, ...).
-- `prev/react`: The config for React projects with support for React and JSX.
-- `prev/native`: The config for ReactNative projects with support for React and JSX.
+- `@preco21/eslint-config`: The basic config for common JavaScript projects. This config is assuming you are in `node` environment (e.g. `nodejs`, `webpack`, ...).
+- `@preco21/eslint-config/react`: The config for React projects with support for React and JSX.
+- `@preco21/eslint-config/native`: The config for ReactNative projects with support for React and JSX.
 
 If you are on _browser_ environment, you may need to add `browser` option to `env` field:
 
@@ -50,7 +50,7 @@ env:
   browser: true
 ```
 
-- [Why not `prev/web`?](https://github.com/airbnb/javascript/issues/1002)
+- [Why there's no such `@preco21/eslint-config/web` instead?](https://github.com/airbnb/javascript/issues/1002)
 
 ## Advanced usage
 
@@ -97,8 +97,8 @@ If you don't want to be enforced by this rule to use them, you can choose what y
 
 ```yaml
 extends:
-  - prev/rules/base
-  - prev/rules/react
+  - @preco21/eslint-config/rules/base
+  - @preco21/eslint-config/rules/react
 ```
 
 `package.json`:
@@ -106,7 +106,7 @@ extends:
 ```json
 {
   "eslintConfig": {
-    "extends": ["prev/rules/base", "prev/rules/react"]
+    "extends": ["@preco21/eslint-config/rules/base", "@preco21/eslint-config/rules/react"]
   }
 }
 ```
