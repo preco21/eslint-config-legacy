@@ -7,7 +7,7 @@
 module.exports = {
   rules: {
     'for-direction': 'error',
-    'getter-return': ['error', { allowImplicit: true }],
+    'getter-return': 'error',
     'no-async-promise-executor': 'error',
     'no-await-in-loop': 'warn',
     'no-compare-neg-zero': 'error',
