@@ -2,7 +2,7 @@
 
 /**
  * strict mode
- * > https://eslint.org/docs/rules/#strict-mode
+ * https://eslint.org/docs/rules/#strict-mode
  */
 module.exports = {
   rules: {
