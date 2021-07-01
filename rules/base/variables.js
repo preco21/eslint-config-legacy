@@ -14,7 +14,12 @@ module.exports = {
     'no-undef': 'error',
     'no-undef-init': 'error',
     'no-undefined': 'off',
-    'no-unused-vars': ['error', { ignoreRestSiblings: true }],
-    'no-use-before-define': ['error', { functions: false, variables: false }],
+    'no-unused-vars': ['error', {
+      ignoreRestSiblings: true,
+    }],
+    'no-use-before-define': ['error', {
+      functions: false,
+      variables: false,
+    }],
   },
 };
