@@ -1,13 +1,9 @@
 # [![@preco21/eslint-config](https://rawgit.com/preco21/eslint-config/master/media/logo.png)](https://github.com/preco21/eslint-config)
 
-[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
-
 [![NPM Version](https://img.shields.io/npm/v/@preco21/eslint-config.svg)](https://www.npmjs.com/package/@preco21/eslint-config)
 [![Build Status](https://travis-ci.org/preco21/eslint-config.svg?branch=master)](https://travis-ci.org/preco21/eslint-config)
 
 > ESLint shareable config for `@preco21`
-
-Extends [JavaScript Standard Style](https://standardjs.com/) to his personal preferences.
 
 ## Install
 
@@ -17,7 +13,7 @@ $ npm install --save-dev eslint @preco21/eslint-config
 
 ## Usage
 
-Add `extends` field to your ESLint config (if you haven't created, create one):
+Add `extends` field to your ESLint config (create one if you haven't already):
 
 `.eslintrc.yml`:
 
@@ -41,7 +37,7 @@ Every config provided by this sharable config have [ECMAScript modules][esm] sup
 
 - `@preco21/eslint-config`: The basic config for common JavaScript projects. This config is assuming you are in `node` environment (e.g. `nodejs`, `webpack`, ...).
 - `@preco21/eslint-config/react`: The config for React projects with support for React and JSX.
-- `@preco21/eslint-config/native`: The config for ReactNative projects with support for React and JSX.
+- `@preco21/eslint-config/react-native`: The config for ReactNative projects with support for React and JSX.
 
 If you are on _browser_ environment, you may need to add `browser` option to `env` field:
 
@@ -56,7 +52,7 @@ env:
 
 ### Globals
 
-Whenever you need to use global variables for some case (e.g. refering external library), you can add them to your config to let ESLint recognize that variables are populated in `global`:
+Whenever you need to use global variables for some case (e.g. referring external library), you can add them to your config to let ESLint recognize that variables are populated in `global`:
 
 ```yaml
 globals:
@@ -106,7 +102,10 @@ extends:
 ```json
 {
   "eslintConfig": {
-    "extends": ["@preco21/eslint-config/rules/base", "@preco21/eslint-config/rules/react"]
+    "extends": [
+      "@preco21/eslint-config/rules/base",
+      "@preco21/eslint-config/rules/react"
+    ]
   }
 }
 ```
