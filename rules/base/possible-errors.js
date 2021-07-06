@@ -9,7 +9,10 @@ module.exports = {
     'for-direction': 'error',
     'getter-return': 'error',
     'no-async-promise-executor': 'error',
-    'no-await-in-loop': 'warn',
+    // you will need to use `await` in loop like in various cases like
+    // indefinite iteration, retrying(e.g. exponential backoff), throttling
+    // and running a series of workflow jobs in one after another manner
+    'no-await-in-loop': 'off',
     'no-compare-neg-zero': 'error',
     'no-cond-assign': 'error',
     'no-console': 'warn',
