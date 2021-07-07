@@ -60,6 +60,7 @@ module.exports = {
     'no-param-reassign': ['error', { props: false }],
     'no-proto': 'error',
     'no-redeclare': 'error',
+    // enabled by `with-no-restricted` rules
     'no-restricted-properties': 'off',
     'no-return-assign': 'error',
     'no-return-await': 'warn',

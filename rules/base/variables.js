@@ -9,6 +9,7 @@ module.exports = {
     'init-declarations': 'off',
     'no-delete-var': 'error',
     'no-label-var': 'error',
+    // enabled by `with-no-restricted` rules
     'no-restricted-globals': 'off',
     'no-shadow': 'error',
     'no-shadow-restricted-names': 'error',

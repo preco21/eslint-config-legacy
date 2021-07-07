@@ -52,7 +52,7 @@ module.exports = {
     'prefer-template': 'error',
     'require-yield': 'error',
     'rest-spread-spacing': 'error',
-    // delegates to `eslint-plugin-import`
+    // enabled by `import` rules
     'sort-imports': 'off',
     'symbol-description': 'off',
     'template-curly-spacing': 'error',
