@@ -1,6 +1,12 @@
 'use strict';
 
 module.exports = {
+  env: {
+    es6: true,
+  },
+  parserOptions: {
+    ecmaVersion: 'latest',
+  },
   extends: [
     './possible-errors',
     './best-practices',
