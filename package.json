@@ -14,7 +14,7 @@
     "check-eslint-rules:react-native": "eslint-find-rules --unused --deprecated react-native.js"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "license": "MIT",
   "homepage": "https://github.com/preco21/eslint-config-prev#readme",
@@ -62,8 +62,14 @@
   },
   "eslintConfig": {
     "root": true,
-    "extends": "./index.js",
+    "extends": [
+      "./rules/base"
+    ],
+    "env": {
+      "node": true
+    },
     "parserOptions": {
+      "ecmaVersion": 2019,
       "sourceType": "script"
     },
     "rules": {
