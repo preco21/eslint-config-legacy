@@ -16,7 +16,7 @@ npm install --save-dev eslint @preco21/eslint-config
 
 If you are only interested in the default config (`base`), you are good to go without following instructions.
 
-Also, there are configs that work with various plugins like `react`, `import`, `node`, and so on.
+Also, there are configs that work with various plugins like `import`, `react`, `typescript`, and so on.
 
 To use those configs, you will need to install all its peer dependencies.
 
@@ -62,7 +62,7 @@ You can find more details about ESLint configuration [here](http://eslint.org/do
 
 The package exposes a number of configs along with the `base` one.
 
-There are two type of configs:
+There are two types of the config:
 
 - `concrete`: A config that just works without any extra configuration.
 - `composable`: A config that can be composed to make customized configuration.
@@ -83,7 +83,7 @@ You can find concrete configs in the top-level of the package:
 - `@preco21/eslint-config/react`: The config for React projects with support for React and JSX.
 - `@preco21/eslint-config/react-native`: The config for ReactNative projects with support for React and JSX.
 
-Every concrete config has [ECMAScript modules](http://2ality.com/2014/09/es6-modules-final.html) support and latest ECMAScript features by default.
+Every concrete config has [ECMAScript modules](http://2ality.com/2014/09/es6-modules-final.html) support and latest ECMAScript features enabled by default.
 
 ### Composable configs
 
@@ -99,9 +99,9 @@ If the concrete rules don't support your use-cases, you can make your own config
 }
 ```
 
-It's recommended to use those configs upon the `base` config, since it contains sensible default rules to work with.
+It's recommended to use other configs upon the `base` config, since it contains sensible default rules to work with.
 
-Please note that you will need to configure extra options like `parserOptions` as needed as some composable configs only contains rules but no extra configuration.
+Please note that you will need to configure extra options like `parserOptions` as needed as some configs only contain rules but no extra configuration.
 
 For example:
 
@@ -142,7 +142,9 @@ If you are in _browser_ environment, you can add `browser` option to `env` field
 
 ### Using globals
 
-If you need to refer the global variables that you don't have control over (e.g. referring external library), you can add them to your config and let ESLint recognize that variables as they exist in the global scope:
+As ESLint makes no assumptions about what global variables exist in your execution environment, you will need to provide knowledge of what global variables are available. (e.g. referring external library at runtime)
+
+You can define global variables in your configuration as follows:
 
 ```json
 {
@@ -158,7 +160,7 @@ See [here](https://eslint.org/docs/user-guide/configuring/language-options#speci
 
 ### Using `script` source type
 
-Every concrete configs treats your code as ECMAScript modules enabled environment by default. Add this to your config if you want to disable it:
+Every concrete configs treats your code as ECMAScript modules enabled environment by default. Add this to your configuration if you want to disable it:
 
 ```json
 {
@@ -172,7 +174,7 @@ Every concrete configs treats your code as ECMAScript modules enabled environmen
 
 [WIP]
 
-Although this is not generally recommended, you can fallback to ES5 by adding this to your config:
+Although this is not generally recommended, you can fallback to ES5 by adding this to your configuration:
 
 ```json
 {
@@ -189,7 +191,7 @@ Although this is not generally recommended, you can fallback to ES5 by adding th
 
 ### Enforcing strict mode
 
-We don't enable the [`strict` rule](https://eslint.org/docs/rules/strict) by default for reason: Today, we all use tooling like `webpack`, `Babel`, and a language like `TypeScript`. And these tools automatically insert a `'use strict'` directive for each source to ensure your code is in `strict mode`.
+We don't enable the [`strict` rule](https://eslint.org/docs/rules/strict) by default for reason: Today, we all use tooling like `webpack`, `Babel`, and languages like `TypeScript`. And these tools automatically insert a `'use strict'` directive for each source to ensure your code is in `strict mode`.
 
 Also, ECMAScript modules enabled environments are `strict mode` by default.
 
