@@ -85,8 +85,12 @@ module.exports = {
     'no-warning-comments': 'off',
     'no-with': 'error',
     'prefer-named-capture-group': 'off',
-    'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
-    'prefer-regex-literals': ['error', { disallowRedundantWrapping: true }],
+    'prefer-promise-reject-errors': ['error', {
+      allowEmptyReject: true,
+    }],
+    'prefer-regex-literals': ['error', {
+      disallowRedundantWrapping: true,
+    }],
     'radix': 'error',
     'require-await': 'off',
     'require-unicode-regexp': 'off',
@@ -94,7 +98,9 @@ module.exports = {
     // `functionPrototypeMethods` is enabled because using such expression
     // without any assignment will end up in a syntax error as it may seem as
     // a function declaration
-    'wrap-iife': ['error', 'inside', { functionPrototypeMethods: true }],
+    'wrap-iife': ['error', 'inside', {
+      functionPrototypeMethods: true,
+    }],
     'yoda': 'error',
   },
 };
