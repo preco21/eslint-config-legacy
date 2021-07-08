@@ -16,13 +16,7 @@ module.exports = {
     // if you need to use non-camelcase globals, use `eslint-disable` comments around it
     'camelcase': ['error', { properties: 'never' }],
     'capitalized-comments': 'off',
-    'comma-dangle': ['error', {
-      arrays: 'always-multiline',
-      objects: 'always-multiline',
-      imports: 'always-multiline',
-      exports: 'always-multiline',
-      functions: 'always-multiline',
-    }],
+    'comma-dangle': ['error', 'always-multiline'],
     'comma-spacing': 'error',
     'comma-style': ['error', 'last', {
       exceptions: {
