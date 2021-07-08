@@ -183,6 +183,8 @@ Although this is not generally recommended, you can fallback to ECMAScript 5 by 
 }
 ```
 
+Please note that the `with-es5` config automatically enables `strict` rule.
+
 **Note:** However, ESLint might still show unexpected errors or warnings because the rules in this config were defined under the assumption that users will be writing ES2015+ code. In this case, you can safely disable the problematic rules manually.
 
 ### Enforcing strict mode
