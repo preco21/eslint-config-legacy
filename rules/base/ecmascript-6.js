@@ -28,7 +28,7 @@ module.exports = {
     'no-useless-constructor': 'error',
     'no-useless-rename': 'error',
     'no-var': 'error',
-    'object-shorthand': ['error', 'always'],
+    'object-shorthand': 'error',
     'prefer-arrow-callback': 'error',
     'prefer-const': ['error', {
       destructuring: 'all',
