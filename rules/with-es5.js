@@ -14,6 +14,7 @@ module.exports = {
     // disable all conflicting rules
     'no-var': 'off',
     'prefer-numeric-literals': 'off',
+
     // enable strict mode
     'strict': 'error',
   },
