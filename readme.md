@@ -170,24 +170,20 @@ Every concrete configs treats your code as ECMAScript modules enabled environmen
 }
 ```
 
-### Using ES5
+### Using ECMAScript 5
 
-[WIP]
-
-Although this is not generally recommended, you can fallback to ES5 by adding this to your configuration:
+Although this is not generally recommended, you can fallback to ECMAScript 5 by adding this to your configuration:
 
 ```json
 {
-  "env": {
-    "es6": false
-  },
-  "parserOptions": {
-    "ecmaVersion": 5
-  }
+  "extends": [
+    "@preco21/eslint-config/rules/base",
+    "@preco21/eslint-config/rules/with-es5"
+  ]
 }
 ```
 
-**Note:** However, ESLint might still show you some error or warning since this config is made in mind that you are writing ES2015+ code. In this case, you can safely disable the rules manually.
+**Note:** However, ESLint might still show unexpected errors or warnings because the rules in this config were defined under the assumption that users will be writing ES2015+ code. In this case, you can safely disable the problematic rules manually.
 
 ### Enforcing strict mode
 
