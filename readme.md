@@ -101,7 +101,7 @@ If the concrete rules don't support your use-cases, you can make your own config
 
 It's recommended to use those configs upon the `base` config, since it contains sensible default rules to work with.
 
-Please note that you will need to configure extra options like `parserOptions` as needed. Most of the composable configs simply contains rules and no extra configuration.
+Please note that you will need to configure extra options like `parserOptions` as needed as some composable configs only contains rules but no extra configuration.
 
 For example:
 
