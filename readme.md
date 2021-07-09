@@ -14,7 +14,7 @@ npm install --save-dev eslint @preco21/eslint-config
 
 ### Peer dependencies
 
-If you are only interested in the default config (`base`), you are good to go without following instructions.
+If you are only interested in the default config (`base`), you are good to go and you don’t need to follow installation instructions below.
 
 Also, there are configs that work with various plugins like `import`, `react`, `typescript`, and so on.
 
@@ -87,7 +87,7 @@ Every concrete config has [ECMAScript modules](http://2ality.com/2014/09/es6-mod
 
 ### Composable configs
 
-If the concrete rules don't support your use-cases, you can make your own config via composable configs from the `rules` folder:
+If the concrete rules don't support your use-cases, you may use composable configs from the `rules` folder to assemble your own config:
 
 ```json
 {
