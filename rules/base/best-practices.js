@@ -19,7 +19,7 @@ module.exports = {
     'default-case-last': 'error',
     'default-param-last': 'error',
     'dot-location': ['error', 'property'],
-    'dot-notation': 'error',
+    'dot-notation': 'off',
     'eqeqeq': ['error', 'always', { null: 'ignore' }],
     'grouped-accessor-pairs': 'error',
     'guard-for-in': 'off',
