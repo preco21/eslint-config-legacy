@@ -61,36 +61,43 @@ module.exports = {
     '@typescript-eslint/comma-spacing': 'error',
     'default-param-last': 'off',
     '@typescript-eslint/default-param-last': 'error',
+
     // FIXME:
     'dot-notation': 'off',
     '@typescript-eslint/dot-notation': 'off',
+
     'func-call-spacing': 'off',
     '@typescript-eslint/func-call-spacing': 'error',
+
     // FIXME:
     'indent': 'off',
     '@typescript-eslint/indent': 'off',
+
     'init-declarations': 'off',
     '@typescript-eslint/init-declarations': 'off',
     'keyword-spacing': 'off',
     '@typescript-eslint/keyword-spacing': 'error',
+
     // FIXME:
     'lines-between-class-members': 'off',
     '@typescript-eslint/lines-between-class-members': 'off',
+
     'no-array-constructor': 'off',
     '@typescript-eslint/no-array-constructor': 'error',
     'no-dupe-class-members': 'off',
     '@typescript-eslint/no-dupe-class-members': 'error',
     'no-duplicate-imports': 'off',
     '@typescript-eslint/no-duplicate-imports': 'off',
+
     // FIXME:
     'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function': 'off',
+
     'no-extra-parens': 'off',
     '@typescript-eslint/no-extra-parens': ['error', 'all', {
       conditionalAssign: false,
       returnAssign: false,
       nestedBinaryExpressions: false,
-      // delegates to `eslint-plugin-react`
       ignoreJSX: 'all',
       enforceForArrowConditionals: false,
       enforceForSequenceExpressions: false,
@@ -98,50 +105,70 @@ module.exports = {
       enforceForFunctionPrototypeMethods: false,
     }],
     'no-extra-semi': 'off',
-    '@typescript-eslint/no-extra-semi': 'off',
+    '@typescript-eslint/no-extra-semi': 'error',
     'no-implied-eval': 'off',
-    '@typescript-eslint/no-implied-eval': 'off',
+    '@typescript-eslint/no-implied-eval': 'error',
     'no-invalid-this': 'off',
-    '@typescript-eslint/no-invalid-this': 'off',
+    '@typescript-eslint/no-invalid-this': 'error',
     'no-loop-func': 'off',
-    '@typescript-eslint/no-loop-func': 'off',
+    '@typescript-eslint/no-loop-func': 'error',
     'no-loss-of-precision': 'off',
-    '@typescript-eslint/no-loss-of-precision': 'off',
+    '@typescript-eslint/no-loss-of-precision': 'warn',
+
     // FIXME:
     'no-magic-numbers': 'off',
     '@typescript-eslint/no-magic-numbers': 'off',
+
     // FIXME:
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': 'off',
+
     // FIXME:
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': 'off',
+
     'no-throw-literal': 'off',
-    '@typescript-eslint/no-throw-literal': 'off',
+    '@typescript-eslint/no-throw-literal': 'error',
     'no-unused-expressions': 'off',
-    '@typescript-eslint/no-unused-expressions': 'off',
+    '@typescript-eslint/no-unused-expressions': ['error', {
+      allowTaggedTemplates: true,
+    }],
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': ['error', {
+      ignoreRestSiblings: true,
+    }],
+
     // FIXME:
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
+
     'no-useless-constructor': 'off',
-    '@typescript-eslint/no-useless-constructor': 'off',
+    '@typescript-eslint/no-useless-constructor': 'error',
     'object-curly-spacing': 'off',
-    '@typescript-eslint/object-curly-spacing': 'off',
+    '@typescript-eslint/object-curly-spacing': ['error', 'always'],
     'quotes': 'off',
-    '@typescript-eslint/quotes': 'off',
+    '@typescript-eslint/quotes': ['error', 'single', {
+      avoidEscape: true,
+      allowTemplateLiterals: true,
+    }],
     'require-await': 'off',
     '@typescript-eslint/require-await': 'off',
+
     // FIXME:
     'return-await': 'off',
     '@typescript-eslint/return-await': 'off',
+
     // FIXME:
     'semi': 'off',
     '@typescript-eslint/semi': 'off',
+
     'space-before-function-paren': 'off',
-    '@typescript-eslint/space-before-function-paren': 'off',
+    '@typescript-eslint/space-before-function-paren': ['error', {
+      anonymous: 'always',
+      named: 'never',
+      asyncArrow: 'always',
+    }],
     'space-infix-ops': 'off',
-    '@typescript-eslint/space-infix-ops': 'off',
+    '@typescript-eslint/space-infix-ops': 'error',
   },
 };
