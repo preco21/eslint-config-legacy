@@ -57,7 +57,10 @@ module.exports = {
     // use `() => { return LONG_CONTENT; }` instead of `() => LONG_CONTENT`
     // or `() => (<JSXContent />)` in JSX
     'implicit-arrow-linebreak': 'error',
-    'indent': ['error', 2, { SwitchCase: 1 }],
+    'indent': ['error', 2, {
+      SwitchCase: 1,
+      ignoredNodes: ['JSXElement'],
+    }],
     // enabled by `react` rules
     'jsx-quotes': 'off',
     'key-spacing': 'error',
