@@ -62,7 +62,7 @@ module.exports = {
     'no-unsafe-negation': 'error',
     'no-unsafe-optional-chaining': 'error',
     'no-useless-backreference': 'error',
-    // TODO: enable once this issue is resolved
+    // FIXME: enable once this issue is resolved
     // https://github.com/eslint/eslint/issues/11899
     'require-atomic-updates': 'off',
     'use-isnan': 'error',

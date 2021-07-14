@@ -11,7 +11,7 @@ module.exports = {
     'block-scoped-var': 'error',
     'class-methods-use-this': 'off',
     'complexity': ['warn', { max: 11 }],
-    // FIXME: disabled due to false-positive could occur in some situation
+    // FIXME: disabled due to the issue where false-positive could occur in some situation
     // https://github.com/typescript-eslint/typescript-eslint/issues/1277
     'consistent-return': 'off',
     'curly': 'error',
