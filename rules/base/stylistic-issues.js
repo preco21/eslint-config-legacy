@@ -42,7 +42,11 @@ module.exports = {
     // prefer function declaration by default, use arrow functions for any other cases
     'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
     'function-call-argument-newline': ['error', 'consistent'],
-    'function-paren-newline': ['error', 'multiline-arguments'],
+    // FIXME:
+    // disabled due to the issue where it triggers false-positive in multiline
+    // generic functions in TypeScript.
+    // https://github.com/typescript-eslint/typescript-eslint/issues/942
+    'function-paren-newline': 'off',
     'id-denylist': 'off',
     'id-length': 'off',
     'id-match': 'off',
