@@ -61,18 +61,19 @@ module.exports = {
     '@typescript-eslint/comma-spacing': 'error',
     'default-param-last': 'off',
     '@typescript-eslint/default-param-last': 'error',
-
-    // FIXME:
     'dot-notation': 'off',
     '@typescript-eslint/dot-notation': 'off',
-
     'func-call-spacing': 'off',
     '@typescript-eslint/func-call-spacing': 'error',
-
-    // FIXME:
+    // for ongoing issues: https://github.com/typescript-eslint/typescript-eslint/issues/1824
+    // related links:
+    // - https://stackoverflow.com/questions/59851672/eslint-indent-and-ignorenodes-trouble-getting-ast-selectors-to-work-correctl/59852368#59852368
+    // - https://astexplorer.net/
     'indent': 'off',
-    '@typescript-eslint/indent': 'off',
-
+    '@typescript-eslint/indent': ['error', 2, {
+      SwitchCase: 1,
+      ignoredNodes: ['JSXElement', 'TSTypeParameterInstantiation'],
+    }],
     'init-declarations': 'off',
     '@typescript-eslint/init-declarations': 'off',
     'keyword-spacing': 'off',
