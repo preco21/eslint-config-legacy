@@ -78,22 +78,18 @@ module.exports = {
     '@typescript-eslint/init-declarations': 'off',
     'keyword-spacing': 'off',
     '@typescript-eslint/keyword-spacing': 'error',
-
-    // FIXME:
     'lines-between-class-members': 'off',
-    '@typescript-eslint/lines-between-class-members': 'off',
-
+    '@typescript-eslint/lines-between-class-members': ['error', 'always', {
+      exceptAfterSingleLine: true,
+    }],
     'no-array-constructor': 'off',
     '@typescript-eslint/no-array-constructor': 'error',
     'no-dupe-class-members': 'off',
     '@typescript-eslint/no-dupe-class-members': 'error',
     'no-duplicate-imports': 'off',
     '@typescript-eslint/no-duplicate-imports': 'off',
-
-    // FIXME:
     'no-empty-function': 'off',
-    '@typescript-eslint/no-empty-function': 'off',
-
+    '@typescript-eslint/no-empty-function': 'error',
     'no-extra-parens': 'off',
     '@typescript-eslint/no-extra-parens': ['error', 'all', {
       conditionalAssign: false,
@@ -115,19 +111,15 @@ module.exports = {
     '@typescript-eslint/no-loop-func': 'error',
     'no-loss-of-precision': 'off',
     '@typescript-eslint/no-loss-of-precision': 'warn',
-
-    // FIXME:
     'no-magic-numbers': 'off',
     '@typescript-eslint/no-magic-numbers': 'off',
-
-    // FIXME:
     'no-redeclare': 'off',
-    '@typescript-eslint/no-redeclare': 'off',
-
-    // FIXME:
+    '@typescript-eslint/no-redeclare': 'error',
+    // even if the default `ignoreTypeValueShadow` option is enabled,
+    // `@typescript-eslint/no-redeclare` rule above will prevent naming a type
+    // the same as a variable.
     'no-shadow': 'off',
-    '@typescript-eslint/no-shadow': 'off',
-
+    '@typescript-eslint/no-shadow': 'error',
     'no-throw-literal': 'off',
     '@typescript-eslint/no-throw-literal': 'error',
     'no-unused-expressions': 'off',
@@ -138,11 +130,11 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': ['error', {
       ignoreRestSiblings: true,
     }],
-
-    // FIXME:
     'no-use-before-define': 'off',
-    '@typescript-eslint/no-use-before-define': 'off',
-
+    '@typescript-eslint/no-use-before-define': ['error', {
+      functions: false,
+      variables: false,
+    }],
     'no-useless-constructor': 'off',
     '@typescript-eslint/no-useless-constructor': 'error',
     'object-curly-spacing': 'off',
@@ -154,15 +146,10 @@ module.exports = {
     }],
     'require-await': 'off',
     '@typescript-eslint/require-await': 'off',
-
-    // FIXME:
     'return-await': 'off',
-    '@typescript-eslint/return-await': 'off',
-
-    // FIXME:
+    '@typescript-eslint/return-await': 'warn',
     'semi': 'off',
-    '@typescript-eslint/semi': 'off',
-
+    '@typescript-eslint/semi': 'error',
     'space-before-function-paren': 'off',
     '@typescript-eslint/space-before-function-paren': ['error', {
       anonymous: 'always',
