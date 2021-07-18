@@ -1,28 +1,23 @@
-'use strict'
+'use strict';
 
-// prettier-ignore
+/**
+ * `@babel/eslint-plugin` rules
+ */
 module.exports = {
-  parser: 'babel-eslint',
-  plugins: ['babel'],
+  parser: '@babel/eslint-parser',
+  plugins: ['@babel'],
   rules: {
-    // disable original eslint rules
     'new-cap': 'off',
-    'camelcase': 'off',
+    'babel/new-cap': 'off',
     'no-invalid-this': 'off',
-    'object-curly-spacing': 'off',
-    'quotes': 'off',
-    'semi': 'off',
-    'no-unused-expressions': 'off',
-    'valid-typeof': 'off',
-
-    // enhance eslint rules based on `base.js`
-    'babel/new-cap': ['error', { capIsNew: false }],
-    'babel/camelcase': ['off', { properties: 'never' }],
     'babel/no-invalid-this': 'error',
+    'no-unused-expressions': 'off',
+    'babel/no-unused-expressions': ['error', {
+      allowTaggedTemplates: true,
+    }],
+    'object-curly-spacing': 'off',
     'babel/object-curly-spacing': ['error', 'always'],
-    'babel/quotes': ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
-    'babel/semi': ['error', 'never'],
-    'babel/no-unused-expressions': ['error', { allowShortCircuit: true, allowTernary: true, allowTaggedTemplates: true }],
-    'babel/valid-typeof': ['error', { requireStringLiterals: true }],
+    'semi': 'off',
+    'babel/semi': 'error',
   },
-}
+};
