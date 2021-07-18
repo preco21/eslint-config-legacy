@@ -68,9 +68,6 @@
     "confusing-browser-globals": {
       "optional": true
     },
-    "eslint": {
-      "optional": true
-    },
     "eslint-plugin-import": {
       "optional": true
     },
