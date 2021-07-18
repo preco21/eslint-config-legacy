@@ -9,16 +9,18 @@ This package provides @preco21's ESLint rules as an extensible shared config.
 ## Install
 
 ```shell
-npm install --save-dev eslint @preco21/eslint-config
+npm install --save-dev @preco21/eslint-config
 ```
 
 ### Peer dependencies
 
 If you are only interested in the default config (`base`), you are good to go and you don’t need to follow installation instructions below.
 
-Also, there are configs that work with various plugins like `import`, `react`, `typescript`, and so on.
+There are configs that work with various plugins like `typescript`, `import`, `react`, and so on.
 
-To use those configs, you will need to install all its peer dependencies.
+To use those, you will need to install all its peer dependencies.
+
+By default, to prevent installing unnecessary peer dependencies, all listed peer dependencies (except the `eslint` itself) are marked as optional via [`peerDependenciesMeta` field](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#peerdependenciesmeta) in the `package.json`. And it's recommended to install only peer dependencies that you are going to use.
 
 Install the correct versions of each package, which are listed by the command:
 
