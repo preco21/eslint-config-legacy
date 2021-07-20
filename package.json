@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "@preco21/eslint-config",
   "version": "7.0.0",
   "description": "ESLint shareable config for @preco21",
   "author": "Plusb Preco <plusb21@gmail.com>",
