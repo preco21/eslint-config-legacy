@@ -1,4 +1,4 @@
-# [![@preco21/eslint-config](https://github.com/preco21/eslint-config/blob/master/media/logo.svg?raw=true)](https://github.com/preco21/eslint-config)
+# <img src="https://github.com/preco21/eslint-config/blob/master/media/logo.svg?raw=true" align="center" /> @preco21/eslint-config
 
 [![npm version](https://badge.fury.io/js/%40preco21%2Feslint-config.svg)](https://badge.fury.io/js/%40preco21%2Feslint-config)
 
