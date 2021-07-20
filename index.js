@@ -1,6 +1,5 @@
 'use strict';
 
-// prettier-ignore
 module.exports = {
   env: {
     es6: true,
@@ -12,7 +11,5 @@ module.exports = {
   },
   extends: [
     './rules/base',
-    './rules/import',
-    './rules/babel',
   ].map(require.resolve),
 };

@@ -1,6 +1,8 @@
-'use strict'
+'use strict';
 
-// prettier-ignore
+/**
+ * `eslint-plugin-react` rules
+ */
 module.exports = {
   plugins: ['react'],
   parserOptions: {
@@ -111,4 +113,4 @@ module.exports = {
     ],
     'react/jsx-child-element-spacing': 'off',
   },
-}
+};

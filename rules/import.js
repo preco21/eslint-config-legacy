@@ -1,8 +1,14 @@
-'use strict'
+'use strict';
 
-// prettier-ignore
+/**
+ * `eslint-plugin-import` rules
+ */
 module.exports = {
   plugins: ['import'],
+  parserOptions: {
+    ecmaVersion: 2019,
+    sourceType: 'module',
+  },
   settings: {
     'import/resolver': {
       node: {
@@ -13,8 +19,14 @@ module.exports = {
     'import/ignore': ['node_modules'],
   },
   rules: {
+    // allow sorting named exports in alphabetical order
+    'sort-imports': ['error', {
+      ignoreDeclarationSort: true,
+    }],
+
     // static analysis
     'import/no-unresolved': ['error', { commonjs: true }],
+
     'import/named': 'error',
     'import/default': 'error',
     'import/namespace': ['error', { allowComputed: true }],
@@ -49,13 +61,18 @@ module.exports = {
     'import/no-amd': 'error',
     'import/no-nodejs-modules': 'off',
 
-    // Style guide
+    // style guide
     'import/first': 'error',
     'import/exports-last': 'off',
     'import/no-duplicates': 'error',
     'import/no-namespace': 'off',
-    'import/extensions': ['error', { js: 'never', jsx: 'never' }],
-    'import/order': ['error', { 'newlines-between': 'never' }],
+    'import/extensions': ['error', {
+      js: 'never',
+      jsx: 'never',
+    }],
+    'import/order': ['error', {
+      'newlines-between': 'never',
+    }],
     'import/newline-after-import': 'error',
     // https://humanwhocodes.com/blog/2019/01/stop-using-default-exports-javascript-module/
     'import/prefer-default-export': 'off',
@@ -63,15 +80,12 @@ module.exports = {
     'import/no-unassigned-import': 'off',
     'import/no-named-default': 'error',
     'import/no-default-export': 'off',
-    'import/no-anonymous-default-export': [
-      'error',
-      {
-        allowArray: true,
-        allowArrowFunction: true,
-        allowLiteral: true,
-        allowObject: true,
-      },
-    ],
+    'import/no-anonymous-default-export': ['error', {
+      allowArray: true,
+      allowArrowFunction: true,
+      allowLiteral: true,
+      allowObject: true,
+    }],
     'import/group-exports': 'off',
   },
-}
+};

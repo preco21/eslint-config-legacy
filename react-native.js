@@ -1,6 +1,5 @@
-'use strict'
+'use strict';
 
-// prettier-ignore
 module.exports = {
   extends: [
     './react',
@@ -32,4 +31,4 @@ module.exports = {
     setTimeout: false,
     window: false,
   },
-}
+};
