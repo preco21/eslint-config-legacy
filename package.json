@@ -17,10 +17,10 @@
     "node": ">=14"
   },
   "license": "MIT",
-  "homepage": "https://github.com/preco21/eslint-config-prev#readme",
-  "repository": "preco21/eslint-config-prev",
+  "homepage": "https://github.com/preco21/eslint-config#readme",
+  "repository": "preco21/eslint-config",
   "bugs": {
-    "url": "https://github.com/preco21/eslint-config-prev/issues"
+    "url": "https://github.com/preco21/eslint-config/issues"
   },
   "files": [
     "rules/",
