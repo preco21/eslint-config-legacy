@@ -23,7 +23,7 @@
     "url": "https://github.com/preco21/eslint-config-prev/issues"
   },
   "files": [
-    "rules",
+    "rules/",
     "index.js",
     "react.js",
     "react-native.js"
