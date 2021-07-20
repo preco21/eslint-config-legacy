@@ -1,7 +1,5 @@
 # [<img src="https://github.com/preco21/eslint-config/blob/main/media/logo.svg?raw=true" align="center" />](https://github.com/preco21/eslint-config) @preco21/eslint-config
 
-[![npm version](https://badge.fury.io/js/%40preco21%2Feslint-config.svg)](https://badge.fury.io/js/%40preco21%2Feslint-config)
-
 > ESLint shareable config for `@preco21`
 
 This package provides @preco21's ESLint rules as an extensible shared config.
