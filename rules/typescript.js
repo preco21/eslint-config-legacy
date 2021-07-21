@@ -22,6 +22,8 @@ module.exports = {
     '@typescript-eslint/consistent-indexed-object-style': 'off',
     '@typescript-eslint/consistent-type-assertions': 'error',
     '@typescript-eslint/consistent-type-definitions': 'error',
+    // certain libraries make use of type information in their use cases:
+    // https://github.com/typescript-eslint/typescript-eslint/issues/2559#issuecomment-692780580
     '@typescript-eslint/consistent-type-imports': 'off',
     '@typescript-eslint/explicit-function-return-type': ['error', {
       allowExpressions: true,
@@ -29,6 +31,7 @@ module.exports = {
     '@typescript-eslint/explicit-member-accessibility': 'error',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/member-delimiter-style': 'error',
+    // TODO: enable?
     '@typescript-eslint/member-ordering': 'off',
     '@typescript-eslint/method-signature-style': 'off',
     '@typescript-eslint/naming-convention': 'off',
@@ -44,6 +47,7 @@ module.exports = {
     '@typescript-eslint/no-extraneous-class': 'off',
     '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/no-for-in-array': 'off',
+    // TODO: enable?
     '@typescript-eslint/no-implicit-any-catch': 'off',
     '@typescript-eslint/no-inferrable-types': 'off',
     '@typescript-eslint/no-invalid-void-type': 'error',
@@ -58,12 +62,17 @@ module.exports = {
     '@typescript-eslint/no-require-imports': 'off',
     '@typescript-eslint/no-this-alias': 'off',
     '@typescript-eslint/no-type-alias': 'off',
+    // this requires the `strictNullChecks` option so may be problematic
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'off',
+    // TODO: enable?
     '@typescript-eslint/no-unnecessary-condition': 'off',
+    // we enforce not to use `namespaces` by the `@typescript-eslint/no-namespace` rule
     '@typescript-eslint/no-unnecessary-qualifier': 'off',
     '@typescript-eslint/no-unnecessary-type-arguments': 'off',
     '@typescript-eslint/no-unnecessary-type-assertion': 'off',
     '@typescript-eslint/no-unnecessary-type-constraint': 'off',
+    // the `strict` option will cover those cases, so
+    // `@typescript-eslint/no-unsafe-*` rules are not necessary.
     '@typescript-eslint/no-unsafe-argument': 'off',
     '@typescript-eslint/no-unsafe-assignment': 'off',
     '@typescript-eslint/no-unsafe-call': 'off',
@@ -92,6 +101,8 @@ module.exports = {
     '@typescript-eslint/restrict-template-expressions': 'off',
     '@typescript-eslint/sort-type-union-intersection-members': 'off',
     '@typescript-eslint/strict-boolean-expressions': 'off',
+    // this will not work as expected since the `default-case` rule will always
+    // require you to add `default` case anyway.
     '@typescript-eslint/switch-exhaustiveness-check': 'off',
     '@typescript-eslint/triple-slash-reference': 'off',
     '@typescript-eslint/type-annotation-spacing': 'error',
