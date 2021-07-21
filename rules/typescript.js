@@ -13,7 +13,7 @@ module.exports = {
   rules: {
     // typescript rules
     '@typescript-eslint/adjacent-overload-signatures': 'error',
-    '@typescript-eslint/array-type': 'off',
+    '@typescript-eslint/array-type': 'error',
     '@typescript-eslint/await-thenable': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/ban-tslint-comment': 'off',
