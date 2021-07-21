@@ -16,7 +16,7 @@ const restrictedGlobals = [
 ].concat(confusingBrowserGlobals);
 
 /**
- * with no-restricted-globals + no-restricted-properties
+ * with `no-restricted-globals` + `no-restricted-properties` rules
  */
 module.exports = {
   rules: {

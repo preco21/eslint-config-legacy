@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * with ECMAScript 5
+ * with ECMAScript 5 rules
  */
 module.exports = {
   env: {
