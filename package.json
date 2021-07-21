@@ -20,9 +20,7 @@
   "license": "MIT",
   "homepage": "https://github.com/preco21/eslint-config#readme",
   "repository": "preco21/eslint-config",
-  "bugs": {
-    "url": "https://github.com/preco21/eslint-config/issues"
-  },
+  "bugs": "https://github.com/preco21/eslint-config/issues",
   "files": [
     "rules/",
     "index.js",
