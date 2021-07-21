@@ -178,10 +178,11 @@ module.exports = {
     '@typescript-eslint/no-unused-expressions': ['error', {
       allowTaggedTemplates: true,
     }],
-    'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': ['error', {
-      ignoreRestSiblings: true,
-    }],
+    // FIXME:
+    // disabled due to the issue where it causes false-positive when recursive
+    // type references in generics involved.
+    // 'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'off',
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error', {
       functions: false,
