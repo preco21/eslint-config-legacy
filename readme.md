@@ -1,4 +1,4 @@
-# [<img src="https://github.com/preco21/eslint-config/blob/main/media/logo.svg?raw=true" align="center" />](https://github.com/preco21/eslint-config) @preco21/eslint-config - moved to [@preco21/eslint-config](https://github.com/preco21/tsconfig)
+# [<img src="https://github.com/preco21/eslint-config/blob/main/media/logo.svg?raw=true" align="center" />](https://github.com/preco21/eslint-config) @preco21/eslint-config - moved to [@preco21/eslint-config](https://github.com/preco21/eslint-config)
 
 > ESLint shareable config for `@preco21`
 
